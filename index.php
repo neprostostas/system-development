@@ -108,7 +108,6 @@
 
                 </div>
             </div>
-
             <div class="blocks-square">
                 <div class="text-block">
                     <div class="green-block"></div>

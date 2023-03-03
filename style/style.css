@@ -346,6 +346,10 @@ body {
     background: var(--color-main);
 }
 
+body.no-scroll {
+    overflow-y: hidden;
+}
+
 .body-container {
     background: var(--color-main);
 }

@@ -5,9 +5,11 @@ activeCheckbox.addEventListener('change', function() {
     if (activeCheckbox.checked) {
         wrapper.classList.add('active');
         fas.classList.add('active');
+        document.body.classList.add('no-scroll')
     } else {
         wrapper.classList.remove('active');
         fas.classList.remove('active');
+        document.body.classList.remove('no-scroll')
     }
 });
 
