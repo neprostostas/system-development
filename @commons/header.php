@@ -11,9 +11,9 @@
                 </div>
 
                 <div class="logo-container desktop">
-                    <img src="../style/icons/fb-white.svg" alt="fb-white">
-                    <img src="../style/icons/pinterest-white.svg" alt="pinterest-white">
-                    <img class="yt-desktop" src="../style/icons/yt-white.svg" alt="yt-white">
+                    <img src="../images/icons/fb-white.svg" alt="fb-white">
+                    <img src="../images/icons/pinterest-white.svg" alt="pinterest-white">
+                    <img class="yt-desktop" src="../images/icons/yt-white.svg" alt="yt-white">
                 </div>
             </div>
             <div class="middle-section">
@@ -21,21 +21,21 @@
 
                 <div class="infogroup-container">
                     <div class="group">
-                        <img src="../style/icons/gr-1.svg" alt="gr-1">
+                        <img src="../images/icons/gr-1.svg" alt="gr-1">
                         <div class="group-content">
                             <h3>10 000 000+</h3>
                             <p>Валового прибутку заробили для клієнтів</p>
                         </div>
                     </div>
                     <div class="group">
-                        <img src="../style/icons/gr-2.svg" alt="gr-2">
+                        <img src="../images/icons/gr-2.svg" alt="gr-2">
                         <div class="group-content">
                             <h3>10 000 000+</h3>
                             <p>Середній чек валового прибутку клієнтів в перший місяць роботи</p>
                         </div>
                     </div>
                     <div class="group">
-                        <img src="../style/icons/gr-3.svg" alt="gr-3">
+                        <img src="../images/icons/gr-3.svg" alt="gr-3">
                         <div class="group-content">
                             <h3>8 міст</h3>
                             <p>Допомогли клієнтам з 8 міст України систематизувати бізнес</p>
@@ -82,9 +82,9 @@
                 </div>
 
                 <div class="logo-container">
-                    <img src="../style/icons/fb.svg" alt="fb">
-                    <img src="../style/icons/pinterest.svg" alt="pinterest">
-                    <img src="../style/icons/yt.svg" alt="yt">
+                    <img src="../images/icons/fb.svg" alt="fb">
+                    <img src="../images/icons/pinterest.svg" alt="pinterest">
+                    <img src="../images/icons/yt.svg" alt="yt">
                 </div>
 
             </div>

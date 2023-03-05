@@ -13,9 +13,38 @@ activeCheckbox.addEventListener('change', function() {
     }
 });
 
+const modalPhoneForm = document.querySelector('.modal-phone-form');
+const modalPhoneFormClose = document.querySelector('.modal-phone-form-close');
+
+const buttonEnter = document.querySelector('.enter');
+const closeMPF = document.querySelector('.close-mpf');
+
+modalPhoneFormClose.addEventListener('click', function() {
+    modalPhoneForm.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+closeMPF.addEventListener('click', function() {
+    modalPhoneForm.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+buttonEnter.addEventListener('click', function() {
+
+    if (buttonEnter.classList.contains('active')) {
+        modalPhoneForm.classList.remove('active');
+        document.body.classList.remove('no-scroll');
+    } else {
+        modalPhoneForm.classList.add('active');
+        document.body.classList.add('no-scroll');
+    }
+
+});
+
+
 // script to create BLUR elements
 const container = document.querySelector('.body-content');
-let numberOfDivs = 8; // Set the number of divs you want to create (for desktop)
+let numberOfDivs = 12; // Set the number of divs you want to create (for desktop)
 let topPosition = 200;
 
 if (window.innerWidth >= 1200) {
@@ -77,3 +106,7 @@ if (window.innerWidth >= 1200) {
 }
 
 
+const telInput = document.getElementById('tel');
+IMask(telInput, {
+    mask: '+38 (000) 000 00 00'
+});
