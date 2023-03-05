@@ -858,6 +858,7 @@ button.enter img {
     background: #051105;
     box-shadow: 0 4px 134px 27px rgba(5, 233, 0, 0.25);
     border-radius: 20px;
+    text-align: center;
 }
 
 .close-mpf {
@@ -897,6 +898,27 @@ button.enter img {
 
 
 @media (max-width: 1425px) {
+
+    .modal-phone-form-content {
+        width: unset;
+        padding: 50px 45px;
+    }
+
+    .close-mpf {
+        width: 35px;
+        height: 35px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .modal-phone-form h2 {
+        font-size: 30px;
+    }
+
+    .modal-phone-form p {
+        padding-top: 10px;
+        font-size: 20px;
+    }
 
     .blocks-square {
         margin-top: 100px;
@@ -1384,6 +1406,15 @@ button.enter img {
 }
 
 @media (max-width: 690px) {
+
+    @media (max-width: 1425px) {
+
+        .modal-phone-form-content {
+            padding: 75px 45px 50px;
+        }
+
+    }
+
     .right-part {
         grid-template-columns: repeat(2, 160px);
         gap: 10px;

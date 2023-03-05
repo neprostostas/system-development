@@ -198,7 +198,6 @@
                     <h2>Інтегрована або стороння</h2>
                 </div>
             </div>
-
             <div class="phone-form">
                 <img class="phone-img" src="images/phone.svg" alt="phone">
 
@@ -238,6 +237,8 @@
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>
             </div>
+
+
 
         </div>
     </div>
