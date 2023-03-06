@@ -72,6 +72,56 @@
 /* 3. CUSTOM CSS */
 /*-------------------------------------------------------------------------------*/
 
+body {
+    background: var(--color-main);
+}
+
+body.no-scroll {
+    overflow-y: hidden;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+button {
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 55px 10px 16px;
+    background: transparent;
+    border: 2px solid #05E900;
+    border-radius: 6px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+button:hover {
+    transition: .5s all ease;
+    background: var(--color-green-square);
+    color: var(--color-black);
+}
+
+button:hover img {
+    filter: grayscale(100%);
+}
+
+button img {
+    width: 35px;
+    position: absolute;
+    top: 19px;
+    right: 12px;
+}
+
 .wrapper {
     z-index: 99;
     position: fixed;
@@ -133,20 +183,15 @@
     padding: 9px 32px;
 }
 
-input[type="checkbox"] {
+.mobile-nav input[type="checkbox"] {
     display: none;
 }
 
-a {
-    text-decoration: none;
-    color: var(--color-white);
-}
-
-li:nth-child(1) {
+.mob-ul li:nth-child(1) {
     margin-top: 47px;
 }
 
-li {
+.mob-ul li {
     margin-top: 14px;
 }
 
@@ -349,14 +394,6 @@ li {
     display: block;
 }
 
-body {
-    background: var(--color-main);
-}
-
-body.no-scroll {
-    overflow-y: hidden;
-}
-
 .body-container {
     background: var(--color-main);
 }
@@ -376,7 +413,6 @@ body.no-scroll {
     left: 20%;
     top: 55%;
     transform: translate(-11%,-50%);
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -436,39 +472,6 @@ body.no-scroll {
     line-height: 74px;
     text-transform: uppercase;
     color: var(--color-white);
-}
-
-button {
-    width: fit-content;
-    cursor: pointer;
-    position: relative;
-    padding: 10px 55px 10px 16px;
-    background: transparent;
-    border: 2px solid #05E900;
-    border-radius: 6px;
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--color-white);
-}
-
-button:hover {
-    transition: .5s all ease;
-    background: var(--color-green-square);
-    color: var(--color-black);
-}
-
-button:hover img {
-    filter: grayscale(100%);
-}
-
-button img {
-    width: 35px;
-    position: absolute;
-    top: 19px;
-    right: 12px;
 }
 
 .block-developers {
@@ -751,17 +754,9 @@ button img {
     color: var(--color-white)
 }
 
-
-
-
-
-
-
-
 .phone-form {
     position: relative;
     z-index: 2;
-
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -805,10 +800,6 @@ button img {
     margin-bottom: 18px;
 }
 
-textarea:focus, input:focus{
-    outline: none;
-}
-
 .phone-form input {
     padding: 5px;
     background: transparent;
@@ -826,11 +817,11 @@ textarea:focus, input:focus{
     color: var(--color-white);
 }
 
-button.enter {
+.form-box button.enter {
     padding: 25px 54px;
 }
 
-button.enter img {
+.form-box button.enter img {
     width: 45px;
     top: 15px;
     right: 30px;
@@ -897,16 +888,9 @@ button.enter img {
     color: var(--color-white);
 }
 
-
-
-
-
-
-
 .all-easy {
     position: relative;
     z-index: 2;
-
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -974,6 +958,59 @@ button.enter img {
 .all-easy .right-easy-block .easy-block-xs:first-of-type p span.green {
     color: var(--color-green-square);
 }
+
+
+
+
+
+.laptop-block {
+    position: relative;
+    z-index: 2;
+
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 10px;
+}
+
+.list-advantages li:nth-child(1) {
+    margin-top: unset;
+}
+
+.green-rectangle.thin {
+    width: 50px;
+    height: 4px;
+}
+
+.info-laptop h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 120%;
+    color: #EBEBEB;
+}
+
+.list-advantages p {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1338,12 +1375,12 @@ button.enter img {
         line-height: 29px;
     }
 
-    button.enter {
+    .form-box button.enter {
         margin-left: auto;
         padding: 20px 45px;
     }
 
-    button.enter img {
+    .form-box button.enter img {
         width: 40px;
         top: 11px;
         right: 25px;
@@ -1549,22 +1586,13 @@ button.enter img {
 }
 
 @media (max-width: 690px) {
+
     .nav-dk {
         display: none;
     }
+
     .middle-section {
         grid-template-columns: repeat(2, auto);
-    }
-}
-
-@media (max-width: 690px) {
-
-    @media (max-width: 1425px) {
-
-        .modal-phone-form-content {
-            padding: 75px 45px 50px;
-        }
-
     }
 
     .right-part {
@@ -1587,6 +1615,7 @@ button.enter img {
 }
 
 @media (max-width: 680px) {
+
     .middle-section {
         display: none;
     }
@@ -1604,6 +1633,7 @@ button.enter img {
         grid-template-columns: repeat(3, auto);
         gap: 69px;
     }
+
 }
 
 @media (max-width: 665px) {
@@ -1623,11 +1653,13 @@ button.enter img {
         font-size: 16px;
         line-height: 1.3rem;
     }
+
     .blocks-square .block h2 {
         max-width: 165px;
         font-size: 14px;
         line-height: 1.2rem;
     }
+
     .blocks-square .block {
         padding: 15px;
     }
@@ -1702,7 +1734,9 @@ button.enter img {
 }
 
 @media (max-width: 490px) {
+
     .video-block h3, .bt-rt-button, .scroll-button {
         display: none;
     }
+
 }

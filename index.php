@@ -10,6 +10,8 @@
     <title>SYS DEV</title>
     <script src="https://kit.fontawesome.com/02e8c33a85.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -49,31 +51,31 @@
                     </div>
                 </div>
                 <div class="right-part">
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-1.svg" alt="line-1">
                         <p>Підлоги</p>
                     </div>
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-2.svg" alt="line-2">
                         <p>Кухонь</p>
                     </div>
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-3.svg" alt="line-3">
                         <p>Сантехніки</p>
                     </div>
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-4.svg" alt="line-4">
                         <p>Дверей</p>
                     </div>
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-5.svg" alt="line-5">
                         <p>Вікон</p>
                     </div>
-                    <div class="square">
+                    <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-6.svg" alt="line-6">
                         <p>Меблів</p>
                     </div>
-                    <div class="square span-three">
+                    <div class="square span-three" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="images/icons/line-7.svg" alt="line-7">
                         <img src="images/icons/line-8.svg" alt="line-8">
                         <p>Забудовники</p>
@@ -81,15 +83,15 @@
                 </div>
             </div>
             <div class="three-cards">
-                <div class="card">
+                <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <h3>Ми беремо лише 1 клієнта на 1 місто України</h3>
                     <p>щоб бути в фокусі, викладатися на 100% і надати максимально можливий результат саме для вас</p>
                 </div>
-                <div class="card">
+                <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <h3>Замість 5 підрядників Ви наймаєте одного,</h3>
                     <p>який за рахунок свого досвіду в ніші повністю виконує весь спектр онлайн-робіт Вашого бізнесу під ключ!</p>
                 </div>
-                <div class="card">
+                <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <h3>Замість 5 підрядників Ви наймаєте одного,</h3>
                     <p>який за рахунок свого досвіду в будівельно-ремонтній ніші повністю виконує весь спектр онлайн-робіт Вашого бізнесу під ключ!</p>
                 </div>
@@ -117,7 +119,7 @@
                         <h3 class="green">Ми залучаємо до Вашого проекту велику та злагоджену команду та можемо Вам зробити:</h3>
                     </div>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>реклама пошукова</p>
                         <h3>Таргетована реклама</h3>
@@ -125,7 +127,7 @@
                     <hr>
                     <h2>FB&Instagram</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>реклама пошукова</p>
                         <h3>Реклама на маркетплейсах</h3>
@@ -133,7 +135,7 @@
                     <hr>
                     <h2>OLX, PROM, HOTLINE</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>сайт під ключ</p>
                         <h3>Унікальний сайт</h3>
@@ -141,7 +143,7 @@
                     <hr>
                     <h2>Окрема послуга</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>навчання</p>
                         <h3>Професійне Навчання менеджерів</h3>
@@ -149,7 +151,7 @@
                     <hr>
                     <h2>Збільшення конверсії продажів</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>реклама пошукова</p>
                         <h3>Вcі види і типи реклами</h3>
@@ -157,7 +159,7 @@
                     <hr>
                     <h2>Google/YouTube</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>реклама пошукова</p>
                         <h3>Повноцінний SMM</h3>
@@ -165,7 +167,7 @@
                     <hr>
                     <h2>Той яким він має бути, а не просто “заради картинки”</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>програмне забезпечення</p>
                         <h3>Розробка  BAF</h3>
@@ -173,7 +175,7 @@
                     <hr>
                     <h2>Система роботи компанії</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>аналітика</p>
                         <h3>Аналітика компанії</h3>
@@ -181,7 +183,7 @@
                     <hr>
                     <h2>Повна та прозора аналітика компанії в діяльності онлайн</h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>скрипти</p>
                         <h3>Розробка скриптів під вашу компанію</h3>
@@ -189,7 +191,7 @@
                     <hr>
                     <h2>Розробка скриптів для відділу продажів </h2>
                 </div>
-                <div class="block">
+                <div class="block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                     <div class="top-block">
                         <p>менеджмент</p>
                         <h3>Розробка CRM</h3>
@@ -281,11 +283,38 @@
 
             </div>
 
+<!--            <div class="laptop-block">-->
+<!---->
+<!--                <div class="info-laptop">-->
+<!--                    <h2>Також якщо ви наймете собі всіх підрядників на послуги, які ми надаємо, то:</h2>-->
+<!---->
+<!--                    <ul class="list-advantages">-->
+<!--                        <li>-->
+<!--                            <div class="green-rectangle thin"></div>-->
+<!--                            <p>це буде <b>в рази дорожче</b></p></li>-->
+<!--                        <li>-->
+<!--                            <div class="green-rectangle thin"></div>-->
+<!--                            <p>у випадку, якщо щось піде не так, як планувалось, вам буде <b>важко знайти винних</b></p></li>-->
+<!--                        <li>-->
+<!--                            <div class="green-rectangle thin"></div>-->
+<!--                            <p><b>система, яка у вас вже працює, може зруйнуватись,</b> якщо рекомендації підрядників будуть суперечити одна одній.</p></li>-->
+<!--                        <li>-->
+<!--                            <div class="green-rectangle thin"></div>-->
+<!--                            <p>універсали, які працюють зі всіма нішами, <b>не знають специфіки вашого бізнесу</b> і пропонують стандартні рішення</p></li>-->
+<!--                    </ul>-->
+<!---->
+<!--                </div>-->
+<!---->
+<!--                <img src="images/laptop.svg" alt="laptop">-->
+<!---->
+<!--            </div>-->
+
 
         </div>
     </div>
 
 
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </body>
 </html>

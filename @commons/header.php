@@ -69,7 +69,7 @@
 
                     <img src="../images/logo.svg" alt="logo">
 
-                    <ul>
+                    <ul class="mob-ul">
                         <li><a class="page-link" href="#">Ніші</a></li>
                         <li><a class="page-link" href="#">Особливості</a></li>
                         <li><a class="page-link" href="#">Про послугу/пакети</a></li>
