@@ -16,34 +16,25 @@ activeCheckbox.addEventListener('change', function() {
 
 const modalPhoneForm = document.querySelector('.modal-phone-form');
 const modalPhoneFormClose = document.querySelector('.modal-phone-form-close');
-
+const modalLevel1Form = document.querySelector('.modal-level1-form');
+const modalLevel1FormClose = document.querySelector('.modal-level1-form-close');
 const buttonEnter = document.querySelector('.enter');
 const closeMPF = document.querySelector('.close-mpf');
+const infoTrigger = document.querySelector('.info-trigger');
+const closeMLF = document.querySelector('.close-mlf');
 
 modalPhoneFormClose.addEventListener('click', function() {
     modalPhoneForm.classList.remove('active');
     document.body.classList.remove('no-scroll');
 });
 
-closeMPF.addEventListener('click', function() {
-    modalPhoneForm.classList.remove('active');
+modalLevel1FormClose.addEventListener('click', function() {
+    modalLevel1Form.classList.remove('active');
     document.body.classList.remove('no-scroll');
 });
 
-buttonEnter.addEventListener('click', function() {
-    modalPhoneForm.classList.add('active');
-    document.body.classList.add('no-scroll');
-});
-
-
-const modalLevel1Form = document.querySelector('.modal-level1-form');
-const modalLevel1FormClose = document.querySelector('.modal-level1-form-close');
-
-const infoTrigger = document.querySelector('.info-trigger');
-const closeMLF = document.querySelector('.close-mlf');
-
-modalLevel1FormClose.addEventListener('click', function() {
-    modalLevel1Form.classList.remove('active');
+closeMPF.addEventListener('click', function() {
+    modalPhoneForm.classList.remove('active');
     document.body.classList.remove('no-scroll');
 });
 
@@ -53,21 +44,15 @@ closeMLF.addEventListener('click', function() {
 });
 
 
-infoTrigger.addEventListener('click', function() {
-
-    modalLevel1Form.classList.add('active');
+buttonEnter.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
     document.body.classList.add('no-scroll');
-
 });
 
-
-
-
-
-
-
-
-
+infoTrigger.addEventListener('click', function() {
+    modalLevel1Form.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
 
 // script to create BLUR elements
 const container = document.querySelector('.body-content');
