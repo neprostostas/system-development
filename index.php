@@ -368,7 +368,69 @@
 
                 </div>
 
+                <div class="level-one">
 
+                    <h2>Рівень 1</h2>
+
+                    <div class="block-level">
+                        <ul>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>00 Проводимо повний аналіз соцмереж Вашого бізнесу.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>01 Налаштовуємо таргетовану рекламу в Facebook&Instagram на різні сегменти (інтереси) аудиторії.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>02 Створюємо рекламні банери під кожен сегмент аудиторії.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>03 Постимо 5 постів та 30 історій в місяць.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>04 Навчаємо 1 менеджера опрацьовувати правильно заявки та надаємо йому скрипт.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>05 Виводимо на один з маркетплейсів України</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>06 Щотижневі звіти за всіма показниками кожного запуску.</p>
+                            </li>
+                        </ul>
+                        <div class="summary-block">
+                            <h3>Вартість</h3>
+                            <button>
+                                Замовити
+                                <img src="images/icons/arrow.svg" alt="arrow">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="level-pro">
+
+
+
+                </div>
+
+                <div class="level-max">
+
+
+
+                </div>
+
+                <div class="difference-block">
+
+
+
+                </div>
 
             </div>
 

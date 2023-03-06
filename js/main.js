@@ -83,7 +83,7 @@ if (window.innerWidth >= 1200) {
     console.log("mobile");
 
     topPosition = 800;
-    numberOfDivs = 6; // Set the number of divs you want to create (for mobile)
+    numberOfDivs = 8; // Set the number of divs you want to create (for mobile)
 
     for (let i = 0; i < numberOfDivs; i++) {
         const div = document.createElement("div");

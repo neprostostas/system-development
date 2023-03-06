@@ -1187,6 +1187,77 @@ button img {
 
 
 
+.level-one {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+.green-circle {
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #05E900;
+    border-radius: 42px;
+}
+
+.summary-block {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.level-header .block-level ul li {
+    padding-bottom: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.level-header .block-level ul li:last-child {
+    padding-bottom: 0;
+}
+
+.level-one h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 36px;
+    color: var(--color-white);
+}
+
+.level-header .block-level ul li p {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--color-white);
+}
+
+.level-header .summary-block h3 {
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 36px;
+    color: var(--color-white);
+}
+
+
+
+
+
+
 
 
 
@@ -1196,6 +1267,18 @@ button img {
 
 
 @media (max-width: 1425px) {
+
+    .level-one h2 {
+        font-size: 40px;
+    }
+
+    .level-header .block-level ul li p {
+        font-size: 22px;
+    }
+
+    .level-header .summary-block h3 {
+        font-size: 28px;
+    }
 
     .top-level h4 {
         font-size: 30px;
@@ -1397,6 +1480,10 @@ button img {
 
 @media (max-width: 1255px) {
 
+    .level-one {
+        padding: 0 60px;
+    }
+
     .level-header {
         margin-top: 80px;
         padding: 0 60px;
@@ -1472,6 +1559,12 @@ button img {
 }
 
 @media (max-width: 1200px) {
+
+    .level-one {
+        margin-top: 80px;
+        grid-template-columns: repeat(2, auto);
+        gap: 100px;
+    }
 
     .info-start {
         width: calc(100% + 60px);
@@ -1588,6 +1681,22 @@ button img {
 }
 
 @media (max-width: 1020px) {
+
+    .level-one h2 {
+        font-size: 30px;
+    }
+
+    .level-header .block-level ul li p {
+        font-size: 20px;
+    }
+
+    .level-header .summary-block h3 {
+        font-size: 26px;
+    }
+
+    .level-one {
+        gap: 60px;
+    }
 
     .top-level h4 {
         font-size: 22px;
@@ -1766,6 +1875,10 @@ button img {
 
 @media (max-width: 930px) {
 
+    .level-one {
+        padding: 0 20px;
+    }
+
     .level-header {
         margin-top: 100px;
         padding: 0 20px;
@@ -1920,6 +2033,13 @@ button img {
 
     .desktop-nav {
         padding: 0 30px;
+    }
+}
+
+@media (max-width: 735px) {
+    .level-one {
+        margin-top: 100px;
+        grid-template-columns: auto;
     }
 }
 
