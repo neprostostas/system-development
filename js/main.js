@@ -45,7 +45,7 @@ buttonEnter.addEventListener('click', function() {
 
 // script to create BLUR elements
 const container = document.querySelector('.body-content');
-let numberOfDivs = 12; // Set the number of divs you want to create (for desktop)
+let numberOfDivs = 15; // Set the number of divs you want to create (for desktop)
 let topPosition = 200;
 
 if (window.innerWidth >= 1200) {
@@ -112,4 +112,26 @@ IMask(telInput, {
     mask: '+38 (000) 000 00 00'
 });
 
+
+const swiper = new Swiper('.swiper', {
+    direction: 'horizontal',
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2.5,
+            spaceBetween: 10,
+        },
+        // when window width is >= 1000px
+        960: {
+            slidesPerView: 3.5,
+            spaceBetween: 27,
+        }
+    }
+
+});
 

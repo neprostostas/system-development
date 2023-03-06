@@ -14,6 +14,8 @@
     --color-main: #051405;
     --color-black: #000000;
     --color-grey: #757474;
+    --color-name: #D7D7D7;
+    --color-additional: #EBEBEB;
     --color-white: #FFFFFF;
     --color-green: #176916;
     --color-green-nav: #08800D;
@@ -959,10 +961,6 @@ button img {
     color: var(--color-green-square);
 }
 
-
-
-
-
 .laptop-block {
     position: relative;
     z-index: 2;
@@ -971,16 +969,36 @@ button img {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
-    gap: 10px;
+    justify-items: center;
+    gap: 30px;
 }
 
-.list-advantages li:nth-child(1) {
-    margin-top: unset;
+.list-advantages {
+    padding-top: 50px;
+}
+
+.list-advantages li {
+    padding-bottom: 21px;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: start;
+    gap: 35px;
+}
+
+.list-advantages li:last-child {
+    padding-bottom: 0;
 }
 
 .green-rectangle.thin {
+    margin-top: 15px;
     width: 50px;
     height: 4px;
+}
+
+.laptop-block img {
+    width: 100%;
 }
 
 .info-laptop h2 {
@@ -1004,14 +1022,89 @@ button img {
 
 
 
+.team-swiper {
+    position: relative;
+    z-index: 2;
 
+    margin-top: 100px;
+}
 
+.team-swiper img {
+    width: 100%;
+}
 
+.swiper {
+    padding-bottom: 50px;
+}
 
+.swiper-slide {
+    background: linear-gradient(321.24deg, rgba(255, 255, 255, 0.02) 31.71%, rgba(255, 255, 255, 0) 58.83%);
+    backdrop-filter: blur(136px);
+    height: unset;
+}
 
+.swiper-scrollbar-drag {
+    background: var(--color-green-nav)
+}
 
+.swiper-scrollbar {
+    background: #232323;
+}
 
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 22px;
+    left: -3px;
+}
 
+.swiper-scrollbar {
+    border-radius: 0;
+    display: none;
+}
+
+.header-team {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 65px;
+}
+
+.header-team .green-block {
+    margin-top: 0;
+}
+
+.header-team h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-additional);
+}
+
+.team-swiper h4 {
+    padding: 28px 38px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: var(--color-name);
+}
+
+.team-swiper p {
+    padding: 0 38px 30px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--color-name);
+}
 
 
 
@@ -1024,6 +1117,37 @@ button img {
 
 
 @media (max-width: 1425px) {
+
+    .header-team h2 {
+        font-size: 40px;
+    }
+
+    .team-swiper h4 {
+        padding: 20px 38px 12px;
+        font-size: 20px;
+    }
+
+    .team-swiper p {
+        padding: 0 38px 25px;
+        font-size: 20px;
+    }
+
+    .header-team {
+        padding-bottom: 35px;
+    }
+
+    .green-rectangle.thin {
+        margin-top: 13px;
+    }
+
+
+    .info-laptop h2 {
+        font-size: 30px;
+    }
+
+    .list-advantages p {
+        font-size: 22px;
+    }
 
     .green-rectangle {
         width: 40px;
@@ -1185,6 +1309,18 @@ button img {
 
 @media (max-width: 1255px) {
 
+    .laptop-block {
+        margin-top: 80px;
+        padding: 0 60px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .green-rectangle.thin {
+        margin-top: 12px;
+    }
+
+
     .easy-block-xs {
         gap: 20px;
     }
@@ -1234,6 +1370,11 @@ button img {
 }
 
 @media (max-width: 1200px) {
+
+    .swiper {
+        width: calc(100% - 60px);
+        margin-right: 0;
+    }
 
     .bt-rt-button {
         width: 50px;
@@ -1298,6 +1439,7 @@ button img {
 }
 
 @media (max-width: 1070px) {
+
     .video-block h3 {
         top: 56%;
         font-size: 34px;
@@ -1340,6 +1482,53 @@ button img {
 }
 
 @media (max-width: 1020px) {
+
+    .header-team {
+        gap: 20px;
+        padding-bottom: 25px;
+    }
+
+    .header-team h2 {
+        font-size: 30px;
+    }
+
+    .team-swiper h4 {
+        padding: 16px 12px 5px;
+        font-size: 18px;
+    }
+
+    .team-swiper p {
+        padding: 0 12px 20px;
+        font-size: 18px;
+    }
+
+    .laptop-block {
+        margin-top: 100px;
+        grid-template-columns: auto;
+        gap: 60px;
+    }
+
+    .list-advantages li {
+        gap: 20px;
+    }
+
+    .green-rectangle.thin {
+        width: 30px;
+        margin-top: 11px;
+    }
+
+    .laptop-block img {
+        width: 70%;
+    }
+
+    .info-laptop h2 {
+        font-size: 22px;
+    }
+
+    .list-advantages p {
+        font-size: 18px;
+    }
+
 
     .left-easy-block h2 {
         font-size: 22px;
@@ -1452,7 +1641,31 @@ button img {
 
 }
 
+@media (max-width: 960px) {
+
+    .swiper-scrollbar {
+        display: block;
+    }
+
+}
+
 @media (max-width: 930px) {
+
+    .swiper {
+        width: calc(100% - 20px);
+    }
+
+    .laptop-block {
+        padding: 0 20px;
+    }
+
+    .green-rectangle.thin {
+        margin-top: 10px;
+    }
+
+    .laptop-block img {
+        width: 100%;
+    }
 
     .all-easy {
         margin: 80px 20px 0;
@@ -1697,6 +1910,20 @@ button img {
 
     .desktop-nav {
         display: none;
+    }
+
+    .header-team h2 {
+        font-size: 26px;
+    }
+
+    .team-swiper h4 {
+        padding: 16px 12px 0;
+        font-size: 16px;
+    }
+
+    .team-swiper p {
+        padding: 0 12px 20px;
+        font-size: 14px;
     }
 
     .video {

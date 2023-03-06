@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{02e8c33a85, imask, jquery-3.6.0, jquery.inputmask, tilt.js, vanilla-masker}" />
+    <file url="PROJECT" libraries="{02e8c33a85, imask, jquery-3.6.0, jquery.inputmask, swiper, tilt.js, vanilla-masker, vanilla-tilt}" />
   </component>
 </project>

@@ -10,5 +10,7 @@
     <orderEntry type="library" name="vanilla-masker" level="application" />
     <orderEntry type="library" name="imask" level="application" />
     <orderEntry type="library" name="tilt.js" level="application" />
+    <orderEntry type="library" name="vanilla-tilt" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
   </component>
 </module>

@@ -10,8 +10,8 @@
     <title>SYS DEV</title>
     <script src="https://kit.fontawesome.com/02e8c33a85.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -282,32 +282,71 @@
                 </div>
 
             </div>
+            <div class="laptop-block">
 
-<!--            <div class="laptop-block">-->
-<!---->
-<!--                <div class="info-laptop">-->
-<!--                    <h2>Також якщо ви наймете собі всіх підрядників на послуги, які ми надаємо, то:</h2>-->
-<!---->
-<!--                    <ul class="list-advantages">-->
-<!--                        <li>-->
-<!--                            <div class="green-rectangle thin"></div>-->
-<!--                            <p>це буде <b>в рази дорожче</b></p></li>-->
-<!--                        <li>-->
-<!--                            <div class="green-rectangle thin"></div>-->
-<!--                            <p>у випадку, якщо щось піде не так, як планувалось, вам буде <b>важко знайти винних</b></p></li>-->
-<!--                        <li>-->
-<!--                            <div class="green-rectangle thin"></div>-->
-<!--                            <p><b>система, яка у вас вже працює, може зруйнуватись,</b> якщо рекомендації підрядників будуть суперечити одна одній.</p></li>-->
-<!--                        <li>-->
-<!--                            <div class="green-rectangle thin"></div>-->
-<!--                            <p>універсали, які працюють зі всіма нішами, <b>не знають специфіки вашого бізнесу</b> і пропонують стандартні рішення</p></li>-->
-<!--                    </ul>-->
-<!---->
-<!--                </div>-->
-<!---->
-<!--                <img src="images/laptop.svg" alt="laptop">-->
-<!---->
-<!--            </div>-->
+                <div class="info-laptop">
+                    <h2>Також якщо ви наймете собі всіх підрядників на послуги, які ми надаємо, то:</h2>
+
+                    <ul class="list-advantages">
+                        <li>
+                            <div class="green-rectangle thin"></div>
+                            <p>це буде <b>в рази дорожче</b></p></li>
+                        <li>
+                            <div class="green-rectangle thin"></div>
+                            <p>у випадку, якщо щось піде не так, як планувалось, вам буде <b>важко знайти винних</b></p></li>
+                        <li>
+                            <div class="green-rectangle thin"></div>
+                            <p><b>система, яка у вас вже працює, може зруйнуватись,</b> якщо рекомендації підрядників будуть суперечити одна одній.</p></li>
+                        <li>
+                            <div class="green-rectangle thin"></div>
+                            <p>універсали, які працюють зі всіма нішами, <b>не знають специфіки вашого бізнесу</b> і пропонують стандартні рішення</p></li>
+                    </ul>
+
+                </div>
+
+                <img src="images/laptop.svg" alt="laptop">
+
+            </div>
+            <div class="team-swiper">
+
+                <div class="header-team">
+                    <div class="green-block"></div>
+                    <h2>Команда</h2>
+                </div>
+
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/team-1.svg" alt="team-1">
+                            <h4>Олександр Краєв</h4>
+                            <p>Керівник відділу продажів</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/team-2.svg" alt="team-2">
+                            <h4>Грицишин Тарас</h4>
+                            <p>Гугл</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/team-3.svg" alt="team-3">
+                            <h4>Тетяна Кінах</h4>
+                            <p>SMM</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/team-1.svg" alt="team-4">
+                            <h4>Павло Нискогуз</h4>
+                            <p>СЕО</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+
+                </div>
+
+            </div>
+
+
+
 
 
         </div>
