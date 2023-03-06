@@ -31,16 +31,42 @@ closeMPF.addEventListener('click', function() {
 });
 
 buttonEnter.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
 
-    if (buttonEnter.classList.contains('active')) {
-        modalPhoneForm.classList.remove('active');
-        document.body.classList.remove('no-scroll');
-    } else {
-        modalPhoneForm.classList.add('active');
-        document.body.classList.add('no-scroll');
-    }
+
+const modalLevel1Form = document.querySelector('.modal-level1-form');
+const modalLevel1FormClose = document.querySelector('.modal-level1-form-close');
+
+const infoTrigger = document.querySelector('.info-trigger');
+const closeMLF = document.querySelector('.close-mlf');
+
+modalLevel1FormClose.addEventListener('click', function() {
+    modalLevel1Form.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+closeMLF.addEventListener('click', function() {
+    modalLevel1Form.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+
+infoTrigger.addEventListener('click', function() {
+
+    modalLevel1Form.classList.add('active');
+    document.body.classList.add('no-scroll');
 
 });
+
+
+
+
+
+
+
+
 
 
 // script to create BLUR elements

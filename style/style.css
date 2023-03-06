@@ -830,15 +830,15 @@ button img {
     right: 30px;
 }
 
-.modal-phone-form {
+.modal-phone-form, .modal-level1-form {
     display: none;
 }
 
-.modal-phone-form.active {
+.modal-phone-form.active, .modal-level1-form.active {
     display: unset;
 }
 
-.modal-phone-form-close {
+.modal-phone-form-close, .modal-level1-form-close {
     z-index: 998;
     position: fixed;
     top: 0;
@@ -848,7 +848,7 @@ button img {
     background-color: rgba(0,0,0,0.7);
 }
 
-.modal-phone-form-content {
+.modal-phone-form-content, .modal-level1-form-content {
     z-index: 999;
     position: fixed;
     left: 50%;
@@ -862,7 +862,7 @@ button img {
     text-align: center;
 }
 
-.close-mpf {
+.close-mpf, .close-mlf {
     cursor: pointer;
     width: 53px;
     height: 53px;
@@ -1178,22 +1178,17 @@ button img {
     color: var(--color-green-square);
 }
 
-
-
-
-
-
-
-
-
-
-.level-one {
+.level-one, .level-pro {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: start;
     gap: 20px;
+}
+
+.level-pro {
+    gap: 90px;
 }
 
 .green-circle {
@@ -1212,7 +1207,7 @@ button img {
     justify-content: space-between;
 }
 
-.level-header .block-level ul li {
+.level-header .block-level ul li, .modal-level1-form ul li {
     padding-bottom: 24px;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -1221,11 +1216,11 @@ button img {
     gap: 20px;
 }
 
-.level-header .block-level ul li:last-child {
+.level-header .block-level ul li:last-child, .modal-level1-form ul li:last-child {
     padding-bottom: 0;
 }
 
-.level-one h2 {
+.level-one h2, .left-block-pro h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1234,13 +1229,17 @@ button img {
     color: var(--color-white);
 }
 
-.level-header .block-level ul li p {
+.level-header .block-level ul li p, .modal-level1-form ul li p {
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
     color: var(--color-white);
+}
+
+.modal-level1-form ul li p {
+    text-align: left;
 }
 
 .level-header .summary-block h3 {
@@ -1252,6 +1251,63 @@ button img {
     line-height: 36px;
     color: var(--color-white);
 }
+
+.left-block-pro img {
+    width: 100%;
+}
+
+.left-block-pro {
+    display: grid;
+    gap: 100px;
+}
+
+.lvl-group {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 15px;
+}
+
+.badge-panel {
+    margin-bottom: 23px;
+    width: fit-content;
+    padding: 21px 38px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 30px;
+    background: #1A1E1A;
+}
+
+.badge-panel img {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+.badge-panel p {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--color-green-square);
+}
+
+.badge-panel .lvl-group h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--color-green-square);
+}
+
+
+
+
+
+
 
 
 
@@ -1268,8 +1324,26 @@ button img {
 
 @media (max-width: 1425px) {
 
-    .level-one h2 {
+
+    .badge-panel p {
+        font-size: 22px;
+    }
+
+    .badge-panel .lvl-group h4 {
+        font-size: 24px;
+    }
+
+    .level-one h2, .left-block-pro h2 {
         font-size: 40px;
+    }
+
+    .modal-level1-form ul li:first-of-type p {
+        padding-right: 100px;
+    }
+
+    .modal-level1-form ul li p {
+        font-size: 20px;
+        padding-right: 30px;
     }
 
     .level-header .block-level ul li p {
@@ -1333,7 +1407,7 @@ button img {
         font-size: 22px;
     }
 
-    .modal-phone-form-content {
+    .modal-phone-form-content, .modal-level1-form-content {
         width: unset;
         padding: 50px 45px;
     }
@@ -1480,7 +1554,7 @@ button img {
 
 @media (max-width: 1255px) {
 
-    .level-one {
+    .level-one, .level-pro {
         padding: 0 60px;
     }
 
@@ -1560,7 +1634,11 @@ button img {
 
 @media (max-width: 1200px) {
 
-    .level-one {
+    .badge-panel {
+        margin-left: auto;
+    }
+
+    .level-one, .level-pro {
         margin-top: 80px;
         grid-template-columns: repeat(2, auto);
         gap: 100px;
@@ -1682,11 +1760,11 @@ button img {
 
 @media (max-width: 1020px) {
 
-    .level-one h2 {
+    .level-one h2, .left-block-pro h2 {
         font-size: 30px;
     }
 
-    .level-header .block-level ul li p {
+    .level-header .block-level ul li p, .modal-level1-form ul li p {
         font-size: 20px;
     }
 
@@ -1694,7 +1772,7 @@ button img {
         font-size: 26px;
     }
 
-    .level-one {
+    .level-one, .level-pro {
         gap: 60px;
     }
 
@@ -1859,6 +1937,37 @@ button img {
 
 @media (max-width: 970px) {
 
+    .modal-level1-form ul li p {
+        font-size: 16px;
+    }
+
+    .modal-level1-form ul li p {
+        padding-right: 0;
+    }
+
+    .modal-level1-form-content {
+        padding: 20px 20px;
+    }
+
+    .green-circle {
+        margin-top: 6px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .modal-level1-form ul li {
+        padding-bottom: 10px;
+    }
+
+    .close-mlf {
+        width: 40px;
+        height: 40px;
+    }
+
+    .level-one h2, .left-block-pro h2 {
+        font-size: 40px;
+    }
+
     .desktop-nav {
         padding: 0 60px;
     }
@@ -1875,7 +1984,12 @@ button img {
 
 @media (max-width: 930px) {
 
-    .level-one {
+    .badge-panel {
+        position: relative;
+        right: -40px;
+    }
+
+    .level-one, .level-pro {
         padding: 0 20px;
     }
 
@@ -2022,6 +2136,10 @@ button img {
 
 @media (max-width: 770px) {
 
+    .modal-level1-form ul li:first-of-type p {
+        padding-right: 30px;
+    }
+
     .phone-form {
         margin: 60px 0 0;
         padding: 0 20px;
@@ -2037,7 +2155,7 @@ button img {
 }
 
 @media (max-width: 735px) {
-    .level-one {
+    .level-one, .level-pro {
         margin-top: 100px;
         grid-template-columns: auto;
     }
@@ -2107,6 +2225,28 @@ button img {
 }
 
 @media (max-width: 665px) {
+
+    .close-mlf {
+        width: 25px;
+        height: 25px;
+    }
+
+    .modal-level1-form-content {
+        left: 20%;
+        transform: translate(-12%, -50%);
+    }
+
+    .modal-level1-form ul li p {
+        font-size: 12px;
+    }
+
+    .modal-level1-form ul li {
+        padding-bottom: 5px;
+    }
+
+    .modal-level1-form ul li {
+        gap: 5px;
+    }
 
     .blocks-square {
         margin-top: 80px;
@@ -2221,6 +2361,35 @@ button img {
 
     .video-block h3, .bt-rt-button, .scroll-button {
         display: none;
+    }
+
+}
+
+@media (max-width: 445px) {
+
+    .badge-panel {
+        padding: 15px 20px;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .badge-panel {
+        gap: 20px;
+    }
+
+    .badge-panel p {
+        font-size: 20px;
+    }
+
+    .badge-panel .lvl-group h4 {
+        font-size: 22px;
+    }
+
+    .badge-panel img {
+        width: 23px;
+        height: 23px;
     }
 
 }

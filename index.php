@@ -413,11 +413,109 @@
                     </div>
 
                 </div>
-
                 <div class="level-pro">
 
+                    <div class="left-block-pro">
+                        <h2>Рівень PRO</h2>
+                        <img src="images/pro-tablets.svg" alt="pro-tablets">
+                    </div>
 
+                    <div class="block-level">
 
+                        <div class="badge-panel">
+                            <p>Всі послуги</p>
+
+                            <div class="lvl-group">
+                                <h4>Рівень 1</h4>
+                                <img class="info-trigger" src="images/icons/info.svg" alt="info">
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>07 СRМ-СИСТЕМА</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>08 Повний аналіз відділу продажів та проведення аналізу кожного менеджера</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>09 Перевірка провідним спеціалістом рівня залученості в навчання менеджерами та формування по кожному менеджеру звітність.
+                                    Проведення конференцій та надання рекомендацій та завдань.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>10 Розробляємо ІНДИВІДУАЛЬНІ СКРИПТИ ПРОДАЖУ
+                                    Проведення інструктажу для усіх менеджерів, як правильно користуватися скриптом, щоб мати розуміння, як довести людину до покупки.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>11 Реклама в Google, створення та наповнення Google-точок</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>12 Рекомендації щодо сайту + корекція існуючого. Чи розробка нового сайту з нуля* (за додаткову плату)</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>13 Робота з маркетплейсами OLX, PROM, HOTLINE (на вибір)</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>14 Розробка чи корегування BAF аналітики та загальної системи бізнесу</p>
+                            </li>
+
+                        </ul>
+                        <div class="summary-block">
+                            <h3>Вартість</h3>
+                            <button>
+                                Замовити
+                                <img src="images/icons/arrow.svg" alt="arrow">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-level1-form">
+                    <div class="modal-level1-form-close"></div>
+                    <div class="modal-level1-form-content">
+                        <img class="close-mlf" src="images/icons/close.svg" alt="close">
+
+                        <ul>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>00 Проводимо повний аналіз соцмереж Вашого бізнесу.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>01 Налаштовуємо таргетовану рекламу в Facebook&Instagram на різні сегменти (інтереси) аудиторії.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>02 Створюємо рекламні банери під кожен сегмент аудиторії.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>03 Постимо 5 постів та 30 історій в місяць.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>04 Навчаємо 1 менеджера опрацьовувати правильно заявки та надаємо йому скрипт.</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>05 Виводимо на один з маркетплейсів України</p>
+                            </li>
+                            <li>
+                                <div class="green-circle"></div>
+                                <p>06 Щотижневі звіти за всіма показниками кожного запуску.</p>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
 
                 <div class="level-max">
