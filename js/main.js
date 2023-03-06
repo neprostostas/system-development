@@ -1,6 +1,7 @@
 const activeCheckbox = document.querySelector('#active');
 const wrapper = document.querySelector('.wrapper');
 const fas = document.querySelector('.fas');
+
 activeCheckbox.addEventListener('change', function() {
     if (activeCheckbox.checked) {
         wrapper.classList.add('active');
@@ -82,7 +83,7 @@ if (window.innerWidth >= 1200) {
     console.log("mobile");
 
     topPosition = 800;
-    numberOfDivs = 4; // Set the number of divs you want to create (for mobile)
+    numberOfDivs = 6; // Set the number of divs you want to create (for mobile)
 
     for (let i = 0; i < numberOfDivs; i++) {
         const div = document.createElement("div");

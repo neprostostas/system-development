@@ -238,6 +238,48 @@
                 </div>
             </div>
 
+            <div class="all-easy">
+
+                <div class="left-easy-block">
+
+                    <h2>Все просто</h2>
+
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <p>Тобто ми приходимо до вас у компанію та налагоджуємо лідогенерацію з усіх можливих джерел, вчимо менеджерів правильно опрацьовувати та “доводити” людей до купівлі і потім на підставі всіх даних будуємо повну аналітику</p>
+                    </div>
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <p>Починаючи працювати з нами, вам не потрібно наймати 4-7 підрядників на кожен напрямок, а потрібно лише одного, який відповідальний за результат всіх процесів</p>
+                    </div>
+
+                    <button class="detail-button">
+                        Детальніше
+                        <img src="images/icons/arrow.svg" alt="arrow">
+                    </button>
+
+                </div>
+
+                <div class="right-easy-block">
+
+                    <img src="images/ipad.svg" alt="iPad">
+
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <p>
+                            <span class="green">Ми працюємо лише з 1 компанією 1 ніші в 1 місті</span>
+                            Тобто якщо ми почали працювати з вами, то вже будемо викладатися на всі 100 саме для вас.
+                        </p>
+                    </div>
+
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <p>Наймаючи вузькоспеціалізованих фахівців ринку, які відтестували вже до вас, ви ще й економите, тому що формуючи власний відділ, ви витратите набагато більше коштів і будете вчитися на своїх помилках.</p>
+                    </div>
+
+                </div>
+
+            </div>
 
 
         </div>
