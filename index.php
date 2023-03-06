@@ -345,9 +345,31 @@
 
             </div>
 
+            <div class="level-header">
 
+                <div class="top-level">
 
+                    <img src="images/lvl-up.png" alt="lvl-up">
 
+                    <h4><span>Ми прихильники послідовної побудови системи бізнесу</span>, бо, як показав досвід, 80% українських компаній не готові починати працювати одразу на другому рівні, тому ми зробили порівневий ріст</h4>
+
+                </div>
+
+                <div class="info-start">
+
+                    <img src="images/icons/arrow-down.svg" alt="arrow-down">
+
+                    <div class="container-layer">
+
+                        <div class="center-layer">
+                            <h2>Наша система будується на трьох рівнях</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
     </div>
