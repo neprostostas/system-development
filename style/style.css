@@ -1448,10 +1448,54 @@ button img {
     margin-top: 3px;
 }
 
+.map-block {
+    position: relative;
+    z-index: 2;
 
+    margin-top: 100px;
+}
 
+.map-block h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: var(--color-white);
+}
 
+.map-block .ukraine-block h2 {
+    font-size: 42px;
+    max-width: 535px;
+}
 
+.map-block .others-block h2 {
+    font-size: 42px;
+}
+
+.map-block h2 span {
+    color: var(--color-green-square);
+}
+
+.ukraine-block .ukraine-img {
+    width: 100%;
+    margin-top: -210px;
+    margin-left: 80px;
+}
+
+.map-block .others-block img {
+    width: 100%;
+}
+
+.others-block {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 120px;
+}
 
 
 
@@ -1474,6 +1518,10 @@ button img {
 
 
 @media (max-width: 1425px) {
+
+    .map-block h2 {
+        font-size: 40px;
+    }
 
     .cases-swiper h3 {
         font-size: 26px;
@@ -1714,6 +1762,10 @@ button img {
 
 @media (max-width: 1335px) {
 
+    .ukraine-block .ukraine-img {
+        margin-top: -100px;
+    }
+
     .phone-form {
         margin: 80px 60px 0 0;
         grid-template-columns: repeat(2, 1fr);
@@ -1731,9 +1783,17 @@ button img {
 
 }
 
+@media (max-width: 1285px) {
+
+    .map-block .others-block h2 {
+        font-size: 40px;
+    }
+
+}
+
 @media (max-width: 1255px) {
 
-    .level-one, .level-pro, .level-max, .difference-block {
+    .level-one, .level-pro, .level-max, .difference-block, .map-block {
         padding: 0 60px;
     }
 
@@ -1919,6 +1979,14 @@ button img {
 
 }
 
+@media (max-width: 1140px) {
+
+    .map-block .others-block h2 {
+        font-size: 35px;
+    }
+
+}
+
 @media (max-width: 1070px) {
 
     .video-block h3 {
@@ -1962,7 +2030,26 @@ button img {
 
 }
 
+@media (max-width: 1030px) {
+
+    .map-block .others-block h2 {
+        font-size: 30px;
+    }
+
+}
+
 @media (max-width: 1020px) {
+
+    .map-block .ukraine-block h2 {
+        line-height: 40px;
+        font-size: 30px;
+        max-width: 445px;
+    }
+
+    .map-block h2 {
+        line-height: 40px;
+        font-size: 30px;
+    }
 
     .list-product li {
         gap: 10px;
@@ -2158,6 +2245,19 @@ button img {
 
 @media (max-width: 970px) {
 
+    .map-block {
+        display: grid;
+    }
+
+    .map-block .ukraine-block h2 {
+        max-width: 425px;
+    }
+
+    .ukraine-block .ukraine-img {
+        margin-top: unset;
+        margin-left: unset;
+    }
+
     .modal-level1-form ul li p {
         font-size: 16px;
     }
@@ -2205,16 +2305,12 @@ button img {
 
 @media (max-width: 930px) {
 
-    .difference-block {
-        padding: 0 20px;
-    }
-
     .badge-panel {
         position: relative;
         right: -40px;
     }
 
-    .level-one, .level-pro, .level-max {
+    .level-one, .level-pro, .level-max, .map-block, .difference-block {
         padding: 0 20px;
     }
 
@@ -2318,6 +2414,19 @@ button img {
 
 @media (max-width: 860px) {
 
+    .others-block img {
+        width: 400px!important;
+    }
+
+    .romania-block h2 {
+        padding-top: 20px;
+    }
+
+    .others-block {
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
     .top-level {
         grid-template-columns: auto;
         gap: 50px;
@@ -2366,7 +2475,7 @@ button img {
     }
 
     .cooperation-box {
-        padding: 30px 30px 0;
+        padding: 30px;
         margin-top: 0;
         margin-left: 0;
     }
@@ -2392,6 +2501,14 @@ button img {
     .desktop-nav {
         padding: 0 30px;
     }
+}
+
+@media (max-width: 745px) {
+
+    .map-block h2 {
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width: 735px) {
@@ -2465,6 +2582,10 @@ button img {
 }
 
 @media (max-width: 665px) {
+
+    .others-block img {
+        width: 350px!important;
+    }
 
     .cases-swiper .swiper-slide {
         width: 295px!important;

@@ -719,7 +719,25 @@
 
             </div>
 
+            <div class="map-block">
 
+                <div class="ukraine-block">
+                    <h2>Наші клієнти вже присутні у <span>11 містах України</span></h2>
+                    <img class="ukraine-img" src="images/ukraine-phone.svg" alt="ukraine-phone">
+                </div>
+
+                <div class="others-block">
+                    <div class="kazakhstan-block">
+                        <h2><span>6 містах</span> Казахстану</h2>
+                        <img class="kazakhstan-img" src="images/kazakhstan.svg" alt="kazakhstan-map">
+                    </div>
+                    <div class="romania-block">
+                        <img class="romania-img" src="images/romania.svg" alt="romania-map">
+                        <h2>І в <span>3 містах</span> Румунії</h2>
+                    </div>
+                </div>
+
+            </div>
 
 
         </div>

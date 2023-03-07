@@ -56,7 +56,7 @@ infoTrigger.addEventListener('click', function() {
 
 // script to create BLUR elements
 const container = document.querySelector('.body-content');
-let numberOfDivs = 18; // Set the number of divs you want to create (for desktop)
+let numberOfDivs = 22; // Set the number of divs you want to create (for desktop)
 let topPosition = 200;
 
 if (window.innerWidth >= 1200) {
@@ -94,7 +94,7 @@ if (window.innerWidth >= 1200) {
     console.log("mobile");
 
     topPosition = 800;
-    numberOfDivs = 10; // Set the number of divs you want to create (for mobile)
+    numberOfDivs = 12; // Set the number of divs you want to create (for mobile)
 
     for (let i = 0; i < numberOfDivs; i++) {
         const div = document.createElement("div");
