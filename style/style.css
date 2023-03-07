@@ -1303,14 +1303,8 @@ button img {
     color: var(--color-green-square);
 }
 
-
-
-
-
-
 .level-max .block-level p {
     padding-bottom: 35px;
-
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1331,6 +1325,58 @@ button img {
     margin-top: 0;
 }
 
+.difference-block {
+    margin-top: 115px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.difference-block h2 {
+    width: 613px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: var(--color-white);
+}
+
+.cooperation-box {
+    margin-top: 190px;
+    margin-left: -130px;
+    padding: 30px 45px;
+    background: rgba(28, 27, 27, 0.67);
+}
+
+.cooperation-box h5 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+.cooperation-box h5 span {
+    color: var(--color-green-square);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1345,6 +1391,15 @@ button img {
 
 
 @media (max-width: 1425px) {
+
+    .difference-block h2 {
+        width: 613px;
+        font-size: 40px;
+    }
+
+    .cooperation-box h5 {
+        font-size: 22px;
+    }
 
     .level-max .block-level p {
         font-size: 22px;
@@ -1579,8 +1634,12 @@ button img {
 
 @media (max-width: 1255px) {
 
-    .level-one, .level-pro, .level-max {
+    .level-one, .level-pro, .level-max, .difference-block {
         padding: 0 60px;
+    }
+
+    .cooperation-box {
+        margin-left: -250px;
     }
 
     .level-header {
@@ -1693,6 +1752,10 @@ button img {
 
 @media (max-width: 1180px) {
 
+    .cooperation-box {
+        margin-left: -300px;
+    }
+
     .video-block h3 {
         font-size: 36px;
     }
@@ -1784,6 +1847,19 @@ button img {
 }
 
 @media (max-width: 1020px) {
+
+    .difference-block h2 {
+        font-size: 30px;
+    }
+
+    .cooperation-box h5 {
+        font-size: 22px;
+    }
+
+    .cooperation-box {
+        margin-top: 130px;
+        margin-left: -400px;
+    }
 
     .level-one h2, .left-block-pro h2, .level-max h2 {
         font-size: 30px;
@@ -2009,6 +2085,10 @@ button img {
 
 @media (max-width: 930px) {
 
+    .difference-block {
+        padding: 0 20px;
+    }
+
     .badge-panel {
         position: relative;
         right: -40px;
@@ -2160,6 +2240,21 @@ button img {
 }
 
 @media (max-width: 770px) {
+
+    .difference-block {
+        grid-template-columns: auto;
+    }
+
+    .cooperation-box {
+        padding: 30px 30px 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .difference-block h2 {
+        width: unset;
+        padding-bottom: 30px;
+    }
 
     .modal-level1-form ul li:first-of-type p {
         padding-right: 30px;
