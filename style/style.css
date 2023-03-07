@@ -978,7 +978,7 @@ button img {
     padding-top: 50px;
 }
 
-.list-advantages li {
+.list-advantages li, .list-product li {
     padding-bottom: 21px;
 
     display: grid;
@@ -988,7 +988,12 @@ button img {
     gap: 35px;
 }
 
-.list-advantages li:last-child {
+.list-product li {
+    padding-bottom: 5px;
+    gap: 25px;
+}
+
+.list-advantages li:last-child, .list-product li:last-child {
     padding-bottom: 0;
 }
 
@@ -1011,7 +1016,7 @@ button img {
     color: #EBEBEB;
 }
 
-.list-advantages p {
+.list-advantages p, .list-product li p {
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1058,7 +1063,7 @@ button img {
     display: none;
 }
 
-.header-team {
+.header-team, .header-cases {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
@@ -1072,7 +1077,7 @@ button img {
     margin-top: 0;
 }
 
-.header-team h2 {
+.header-team h2, .header-cases h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -1361,9 +1366,87 @@ button img {
     color: var(--color-green-square);
 }
 
+.cases-swiper {
+    position: relative;
+    z-index: 2;
 
+    margin-top: 100px;
+}
 
+.cases-swiper .swiper-slide {
+    padding: 28px 20px 0;
+    display: grid;
+    gap: 15px;
+    align-content: space-between;
+}
 
+.cases-swiper h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--color-white);
+}
+
+.swiper-slide h2, .little-text {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.swiper-slide h2 {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.little-text {
+    text-transform: unset;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.list-product li p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.green-rectangle.thin.mt-0 {
+    margin-top: -3px;
+    height: 4px;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.list-product .green-rectangle.thin {
+    margin-top: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.product-slide {
+    width: 100%;
+}
+
+.cases-swiper .logo-container {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cases-swiper .logo-container img {
+    width: 25px;
+}
+
+.cases-swiper .header-cases .green-block {
+    margin-top: 3px;
+}
 
 
 
@@ -1391,6 +1474,22 @@ button img {
 
 
 @media (max-width: 1425px) {
+
+    .cases-swiper h3 {
+        font-size: 26px;
+    }
+
+    .swiper-slide h2, .little-text {
+        font-size: 26px;
+    }
+
+    .little-text {
+        font-size: 18px;
+    }
+
+    .list-product li p {
+        font-size: 20px;
+    }
 
     .difference-block h2 {
         width: 613px;
@@ -1443,7 +1542,7 @@ button img {
         font-size: 40px;
     }
 
-    .header-team h2 {
+    .header-team h2, .header-cases h2 {
         font-size: 40px;
     }
 
@@ -1457,7 +1556,7 @@ button img {
         font-size: 20px;
     }
 
-    .header-team {
+    .header-team, .header-cases {
         padding-bottom: 35px;
     }
 
@@ -1718,6 +1817,23 @@ button img {
 
 @media (max-width: 1200px) {
 
+    .cases-swiper h3 {
+        font-size: 24px;
+    }
+
+    .swiper-slide h2, .little-text {
+        font-size: 24px;
+    }
+
+    .little-text {
+        font-size: 16px;
+    }
+
+    .list-product li p {
+        font-size: 18px;
+    }
+
+
     .badge-panel {
         margin-left: auto;
     }
@@ -1848,6 +1964,10 @@ button img {
 
 @media (max-width: 1020px) {
 
+    .list-product li {
+        gap: 10px;
+    }
+
     .difference-block h2 {
         font-size: 30px;
     }
@@ -1886,12 +2006,12 @@ button img {
         font-size: 26px;
     }
 
-    .header-team {
+    .header-team, .header-cases {
         gap: 20px;
         padding-bottom: 25px;
     }
 
-    .header-team h2 {
+    .header-team h2, .header-cases h2 {
         font-size: 30px;
     }
 
@@ -1911,7 +2031,7 @@ button img {
         gap: 60px;
     }
 
-    .list-advantages li {
+    .list-advantages li, .list-product li {
         gap: 20px;
     }
 
@@ -1928,7 +2048,7 @@ button img {
         font-size: 22px;
     }
 
-    .list-advantages p {
+    .list-advantages p, .list-product li p {
         font-size: 18px;
     }
 
@@ -2346,6 +2466,10 @@ button img {
 
 @media (max-width: 665px) {
 
+    .cases-swiper .swiper-slide {
+        width: 295px!important;
+    }
+
     .close-mlf {
         width: 25px;
         height: 25px;
@@ -2429,7 +2553,7 @@ button img {
         display: none;
     }
 
-    .header-team h2 {
+    .header-team h2, .header-cases h2 {
         font-size: 26px;
     }
 
