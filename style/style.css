@@ -1178,7 +1178,7 @@ button img {
     color: var(--color-green-square);
 }
 
-.level-one, .level-pro {
+.level-one, .level-pro, .level-max {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1220,7 +1220,7 @@ button img {
     padding-bottom: 0;
 }
 
-.level-one h2, .left-block-pro h2 {
+.level-one h2, .left-block-pro h2, .level-max h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1308,6 +1308,28 @@ button img {
 
 
 
+.level-max .block-level p {
+    padding-bottom: 35px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+.level-max .block-level p.green {
+    color: var(--color-green-square);
+}
+
+.level-header .summary-block h3 {
+    padding-left: 0;
+}
+
+.level-max .block-level .summary-block {
+    margin-top: 0;
+}
 
 
 
@@ -1324,6 +1346,9 @@ button img {
 
 @media (max-width: 1425px) {
 
+    .level-max .block-level p {
+        font-size: 22px;
+    }
 
     .badge-panel p {
         font-size: 22px;
@@ -1333,7 +1358,7 @@ button img {
         font-size: 24px;
     }
 
-    .level-one h2, .left-block-pro h2 {
+    .level-one h2, .left-block-pro h2, .level-max h2 {
         font-size: 40px;
     }
 
@@ -1554,7 +1579,7 @@ button img {
 
 @media (max-width: 1255px) {
 
-    .level-one, .level-pro {
+    .level-one, .level-pro, .level-max {
         padding: 0 60px;
     }
 
@@ -1638,7 +1663,7 @@ button img {
         margin-left: auto;
     }
 
-    .level-one, .level-pro {
+    .level-one, .level-pro, .level-max {
         margin-top: 80px;
         grid-template-columns: repeat(2, auto);
         gap: 100px;
@@ -1760,7 +1785,7 @@ button img {
 
 @media (max-width: 1020px) {
 
-    .level-one h2, .left-block-pro h2 {
+    .level-one h2, .left-block-pro h2, .level-max h2 {
         font-size: 30px;
     }
 
@@ -1772,7 +1797,7 @@ button img {
         font-size: 26px;
     }
 
-    .level-one, .level-pro {
+    .level-one, .level-pro, .level-max {
         gap: 60px;
     }
 
@@ -1964,7 +1989,7 @@ button img {
         height: 40px;
     }
 
-    .level-one h2, .left-block-pro h2 {
+    .level-one h2, .left-block-pro h2, .level-max h2 {
         font-size: 40px;
     }
 
@@ -1989,7 +2014,7 @@ button img {
         right: -40px;
     }
 
-    .level-one, .level-pro {
+    .level-one, .level-pro, .level-max {
         padding: 0 20px;
     }
 
@@ -2155,7 +2180,7 @@ button img {
 }
 
 @media (max-width: 735px) {
-    .level-one, .level-pro {
+    .level-one, .level-pro, .level-max {
         margin-top: 100px;
         grid-template-columns: auto;
     }
