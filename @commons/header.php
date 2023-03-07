@@ -5,19 +5,30 @@
             <div class="first-section">
 
                 <div class="tel-wrapper">
-                    <img class="tablet-logo" src="../images/logo.svg" alt="logo">
+                    <a class="logo-a tablet-logo" href="../index.php">
+                        <img src="../images/logo.svg" alt="logo">
+                    </a>
                     <a class="link-tel-desktop" href="tel:+380730502550">+38 073 050 25 50</a>
                     <a class="link-tel-desktop" href="tel:+380680502550">+38 068 050 25 50</a>
                 </div>
 
                 <div class="logo-container desktop">
-                    <img src="../images/icons/fb-white.svg" alt="fb-white">
-                    <img src="../images/icons/pinterest-white.svg" alt="pinterest-white">
-                    <img class="yt-desktop" src="../images/icons/yt-white.svg" alt="yt-white">
+                    <a class="logo-a" href="#">
+                        <img src="../images/icons/fb-white.svg" alt="fb-white">
+                    </a>
+                    <a class="logo-a" href="#">
+                        <img src="../images/icons/pinterest-white.svg" alt="pinterest-white">
+                    </a>
+                    <a class="logo-a" href="#">
+                        <img class="yt-desktop" src="../images/icons/yt-white.svg" alt="yt-white">
+                    </a>
                 </div>
             </div>
             <div class="middle-section">
-                <img src="../images/logo.svg" alt="logo">
+
+                <a class="logo-a" href="../index.php">
+                    <img src="../images/logo.svg" alt="logo">
+                </a>
 
                 <div class="infogroup-container">
                     <div class="group">
@@ -48,18 +59,21 @@
             </div>
             <nav class="last-section">
                 <ul>
-                    <li><a class="page-link" href="#">Ніші</a></li>
-                    <li><a class="page-link" href="#">Особливості</a></li>
-                    <li><a class="page-link" href="#">Про послугу/пакети</a></li>
-                    <li><a class="page-link" href="#">Результати</a></li>
-                    <li><a class="page-link" href="#">Контакти</a></li>
+                    <li><a class="page-link" href="../niches.php">Ніші</a></li>
+                    <li><a class="page-link" href="../features.php">Особливості</a></li>
+                    <li><a class="page-link" href="../packages.php">Про послугу/пакети</a></li>
+                    <li><a class="page-link" href="../results.php">Результати</a></li>
+                    <li><a class="page-link" href="../contacts.php">Контакти</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
     <div class="mobile-nav-container">
-        <img class="mobile-logo" src="../images/logo.svg" alt="logo">
+
+        <a class="logo-a" href="../index.php">
+            <img class="mobile-logo" src="../images/logo.svg" alt="logo">
+        </a>
         <div class="mobile-nav">
             <input type="checkbox" id="active">
             <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
@@ -67,14 +81,16 @@
 
                 <div class="content-container">
 
-                    <img src="../images/logo.svg" alt="logo">
+                    <a class="logo-a" href="../index.php">
+                        <img src="../images/logo.svg" alt="logo">
+                    </a>
 
                     <ul class="mob-ul">
-                        <li><a class="page-link" href="#">Ніші</a></li>
-                        <li><a class="page-link" href="#">Особливості</a></li>
-                        <li><a class="page-link" href="#">Про послугу/пакети</a></li>
-                        <li><a class="page-link" href="#">Результати</a></li>
-                        <li><a class="page-link" href="#">Контакти</a></li>
+                        <li><a class="page-link" href="../niches.php">Ніші</a></li>
+                        <li><a class="page-link" href="../features.php">Особливості</a></li>
+                        <li><a class="page-link" href="../packages.php">Про послугу/пакети</a></li>
+                        <li><a class="page-link" href="../results.php">Результати</a></li>
+                        <li><a class="page-link" href="../contacts.php">Контакти</a></li>
                     </ul>
 
                     <div class="tel-container">
@@ -83,9 +99,15 @@
                     </div>
 
                     <div class="logo-container">
-                        <img src="../images/icons/fb.svg" alt="fb">
-                        <img src="../images/icons/pinterest.svg" alt="pinterest">
-                        <img src="../images/icons/yt.svg" alt="yt">
+                        <a class="logo-a" href="#">
+                            <img src="../images/icons/fb.svg" alt="fb">
+                        </a>
+                        <a class="logo-a" href="#">
+                            <img src="../images/icons/pinterest.svg" alt="pinterest">
+                        </a>
+                        <a class="logo-a" href="#">
+                            <img src="../images/icons/yt.svg" alt="yt">
+                        </a>
                     </div>
 
                 </div>

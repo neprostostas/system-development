@@ -19,6 +19,8 @@ const modalPhoneFormClose = document.querySelector('.modal-phone-form-close');
 const modalLevel1Form = document.querySelector('.modal-level1-form');
 const modalLevel1FormClose = document.querySelector('.modal-level1-form-close');
 const buttonEnter = document.querySelector('.enter');
+const buttonEnter2 = document.querySelector('.enter2');
+const buttonEnter3 = document.querySelector('.enter3');
 const closeMPF = document.querySelector('.close-mpf');
 const infoTrigger = document.querySelector('.info-trigger');
 const closeMLF = document.querySelector('.close-mlf');
@@ -43,8 +45,17 @@ closeMLF.addEventListener('click', function() {
     document.body.classList.remove('no-scroll');
 });
 
-
 buttonEnter.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
+
+buttonEnter2.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
+
+buttonEnter3.addEventListener('click', function() {
     modalPhoneForm.classList.add('active');
     document.body.classList.add('no-scroll');
 });
@@ -56,7 +67,7 @@ infoTrigger.addEventListener('click', function() {
 
 // script to create BLUR elements
 const container = document.querySelector('.body-content');
-let numberOfDivs = 22; // Set the number of divs you want to create (for desktop)
+let numberOfDivs = 19; // Set the number of divs you want to create (for desktop)
 let topPosition = 200;
 
 if (window.innerWidth >= 1200) {
@@ -94,7 +105,7 @@ if (window.innerWidth >= 1200) {
     console.log("mobile");
 
     topPosition = 800;
-    numberOfDivs = 12; // Set the number of divs you want to create (for mobile)
+    numberOfDivs = 9; // Set the number of divs you want to create (for mobile)
 
     for (let i = 0; i < numberOfDivs; i++) {
         const div = document.createElement("div");
@@ -117,12 +128,18 @@ if (window.innerWidth >= 1200) {
 
 }
 
-
 const telInput = document.getElementById('tel');
+const telInput2 = document.getElementById('tel2');
+const telInput3 = document.getElementById('tel3');
 IMask(telInput, {
     mask: '+38 (000) 000 00 00'
 });
-
+IMask(telInput2, {
+    mask: '+38 (000) 000 00 00'
+});
+IMask(telInput3, {
+    mask: '+38 (000) 000 00 00'
+});
 
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
@@ -145,5 +162,3 @@ const swiper = new Swiper('.swiper', {
     }
 
 });
-
-

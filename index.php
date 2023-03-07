@@ -230,7 +230,6 @@
                 </div>
 
             </div>
-
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
@@ -239,7 +238,6 @@
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>
             </div>
-
             <div class="all-easy">
 
                 <div class="left-easy-block">
@@ -554,7 +552,6 @@
                 </div>
 
             </div>
-
             <div class="cases-swiper">
 
                 <div class="header-cases">
@@ -590,9 +587,15 @@
                                 <img class="product-slide" src="images/product-1.svg" alt="product-1">
 
                                 <div class="logo-container">
-                                    <img src="images/icons/fb.svg" alt="fb">
-                                    <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    <img src="images/icons/yt.svg" alt="yt">
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/fb.svg" alt="fb">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/pinterest.svg" alt="pinterest">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/yt.svg" alt="yt">
+                                    </a>
                                 </div>
                             </div>
 
@@ -628,9 +631,15 @@
                                 <img class="product-slide" src="images/product-2.svg" alt="product-2">
 
                                 <div class="logo-container">
-                                    <img src="images/icons/fb.svg" alt="fb">
-                                    <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    <img src="images/icons/yt.svg" alt="yt">
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/fb.svg" alt="fb">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/pinterest.svg" alt="pinterest">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/yt.svg" alt="yt">
+                                    </a>
                                 </div>
                             </div>
 
@@ -666,9 +675,15 @@
                                 <img class="product-slide" src="images/product-2.svg" alt="product-2">
 
                                 <div class="logo-container">
-                                    <img src="images/icons/fb.svg" alt="fb">
-                                    <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    <img src="images/icons/yt.svg" alt="yt">
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/fb.svg" alt="fb">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/pinterest.svg" alt="pinterest">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/yt.svg" alt="yt">
+                                    </a>
                                 </div>
                             </div>
 
@@ -704,9 +719,15 @@
                                 <img class="product-slide" src="images/product-2.svg" alt="product-2">
 
                                 <div class="logo-container">
-                                    <img src="images/icons/fb.svg" alt="fb">
-                                    <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    <img src="images/icons/yt.svg" alt="yt">
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/fb.svg" alt="fb">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/pinterest.svg" alt="pinterest">
+                                    </a>
+                                    <a class="logo-a" href="#">
+                                        <img src="images/icons/yt.svg" alt="yt">
+                                    </a>
                                 </div>
                             </div>
 
@@ -718,7 +739,6 @@
                 </div>
 
             </div>
-
             <div class="map-block">
 
                 <div class="ukraine-block">
@@ -738,11 +758,59 @@
                 </div>
 
             </div>
+            <div class="main-form">
 
+                <img class="bg-circles" src="images/form-back.svg" alt="form-back">
+
+                <div class="content-block">
+                    <h3>Наші спеціалісти онлайн</h3>
+                    <p>Залишіть свій номер та спеціаліст зв’яжеться з вами впродовж 30 хв.</p>
+
+                    <div class="phone-form main">
+
+                        <div class="form-box">
+
+                            <div class="name-input-container">
+                                <label for="name"></label>
+                                <input id="name" type="text" placeholder="Ім’я">
+                            </div>
+
+                            <div class="tel-input-container">
+                                <label for="tel2"></label>
+                                <input id="tel2" type="tel" placeholder="+38 (0__) ___ __ __">
+                            </div>
+
+                            <button class="enter enter2">
+                                <img src="images/icons/arrow.svg" alt="arrow">
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="personal" name="personal">
+                        <label for="personal">Даю згоду на обробку персональних даних. <br class="mobile-only"> <span>Політика конфіденційності</span></label>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="final-block">
+
+                <img src="images/lvl-up.png" alt="lvl-up">
+
+                <div class="quote-block">
+                    <img src="images/icons/quotes.svg" alt="quotes">
+                    <h4>Побудуйте цілу систему бізнесу не вчившись на своїх помилках, а довіртеся одному підряднику, який зробить все</h4>
+                </div>
+
+            </div>
 
         </div>
     </div>
 
+    <?php require "@commons/footer.php" ?>
 
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
