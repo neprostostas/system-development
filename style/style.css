@@ -1642,7 +1642,7 @@ button img {
 }
 
 .mb-only {
-    display: none;
+    display: none!important;
 }
 
 .footer-container {
@@ -2817,7 +2817,7 @@ button img {
     }
 
     .mb-only {
-        display: grid;
+        display: grid!important;
     }
 
     .footer-content .conclusive-part .tel-container {
