@@ -559,182 +559,199 @@
                     <h2>Кейси наших робіт</h2>
                 </div>
 
-                <div class="swiper">
+                <div class="swiper swiper2">
 
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper2-slide">
 
-                            <div class="top-part">
-                                <h3>Рівень 1</h3>
-                                <div class="green-rectangle thin mt-0"></div>
+                            <div class="container">
+                                <div class="top-part">
+                                    <h3>Рівень 1</h3>
+                                    <div class="green-rectangle thin mt-0"></div>
 
-                                <h2>Podil Doors</h2>
-                                <p class="little-text">міжкімнатні та вхідні двері</p>
+                                    <h2>Podil Doors</h2>
+                                    <p class="little-text">міжкімнатні та вхідні двері</p>
 
-                                <ul class="list-product">
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>102</b> клієнта за перший місяць</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>100 000+</b> грн валового доходу з реклами за 1 місяць</p>
-                                    </li>
-                                </ul>
-                            </div>
+                                    <ul class="list-product">
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>102</b> клієнта за перший місяць</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>100 000+</b> грн валового доходу з реклами за 1 місяць</p>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                            <div class="end-part">
-                                <img class="product-slide" src="images/product-1.svg" alt="product-1">
+                                <div class="end-part">
+                                    <img class="product-slide" src="images/product-1.svg" alt="product-1">
 
-                                <div class="logo-container">
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/fb.svg" alt="fb">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/yt.svg" alt="yt">
-                                    </a>
+                                    <div class="logo-container">
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/fb.svg" alt="fb">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/yt.svg" alt="yt">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+
 
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper2-slide">
 
-                            <div class="top-part">
+                            <div class="container">
+                                <div class="top-part">
 
-                                <h3>Рівень PRO</h3>
-                                <div class="green-rectangle thin mt-0"></div>
+                                    <h3>Рівень PRO</h3>
+                                    <div class="green-rectangle thin mt-0"></div>
 
-                                <h2>Terminus</h2>
-                                <p class="little-text">міжкімнатні двері Рівне</p>
+                                    <h2>Terminus</h2>
+                                    <p class="little-text">міжкімнатні двері Рівне</p>
 
-                                <ul class="list-product">
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>529</b> клієнтів</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>2 000 000+</b> грн валового доходу з реклами</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
-                                    </li>
-                                </ul>
+                                    <ul class="list-product">
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>529</b> клієнтів</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>2 000 000+</b> грн валового доходу з реклами</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
+                                        </li>
+                                    </ul>
 
-                            </div>
+                                </div>
 
-                            <div class="end-part">
-                                <img class="product-slide" src="images/product-2.svg" alt="product-2">
+                                <div class="end-part">
+                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
 
-                                <div class="logo-container">
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/fb.svg" alt="fb">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/yt.svg" alt="yt">
-                                    </a>
+                                    <div class="logo-container">
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/fb.svg" alt="fb">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/yt.svg" alt="yt">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+
 
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper2-slide">
 
-                            <div class="top-part">
+                            <div class="container">
 
-                                <h3>Рівень PRO</h3>
-                                <div class="green-rectangle thin mt-0"></div>
+                                <div class="top-part">
 
-                                <h2>Terminus</h2>
-                                <p class="little-text">міжкімнатні двері Рівне</p>
+                                    <h3>Рівень PRO</h3>
+                                    <div class="green-rectangle thin mt-0"></div>
 
-                                <ul class="list-product">
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>529</b> клієнтів</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>2 000 000+</b> грн валового доходу з реклами</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
-                                    </li>
-                                </ul>
+                                    <h2>Terminus</h2>
+                                    <p class="little-text">міжкімнатні двері Рівне</p>
 
-                            </div>
+                                    <ul class="list-product">
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>529</b> клієнтів</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>2 000 000+</b> грн валового доходу з реклами</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
+                                        </li>
+                                    </ul>
 
-                            <div class="end-part">
-                                <img class="product-slide" src="images/product-2.svg" alt="product-2">
-
-                                <div class="logo-container">
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/fb.svg" alt="fb">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/yt.svg" alt="yt">
-                                    </a>
                                 </div>
+
+                                <div class="end-part">
+                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
+
+                                    <div class="logo-container">
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/fb.svg" alt="fb">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/yt.svg" alt="yt">
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
+
+
 
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper2-slide">
 
-                            <div class="top-part">
+                            <div class="container">
 
-                                <h3>Рівень PRO</h3>
-                                <div class="green-rectangle thin mt-0"></div>
+                                <div class="top-part">
 
-                                <h2>Terminus</h2>
-                                <p class="little-text">міжкімнатні двері Рівне</p>
+                                    <h3>Рівень PRO</h3>
+                                    <div class="green-rectangle thin mt-0"></div>
 
-                                <ul class="list-product">
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>529</b> клієнтів</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>2 000 000+</b> грн валового доходу з реклами</p>
-                                    </li>
-                                    <li>
-                                        <div class="green-rectangle thin"></div>
-                                        <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
-                                    </li>
-                                </ul>
+                                    <h2>Terminus</h2>
+                                    <p class="little-text">міжкімнатні двері Рівне</p>
 
-                            </div>
+                                    <ul class="list-product">
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>529</b> клієнтів</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>2 000 000+</b> грн валового доходу з реклами</p>
+                                        </li>
+                                        <li>
+                                            <div class="green-rectangle thin"></div>
+                                            <p><b>95 %</b> людей, які приходять в Terminus, вже знають про бренд та його переваги</p>
+                                        </li>
+                                    </ul>
 
-                            <div class="end-part">
-                                <img class="product-slide" src="images/product-2.svg" alt="product-2">
-
-                                <div class="logo-container">
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/fb.svg" alt="fb">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/pinterest.svg" alt="pinterest">
-                                    </a>
-                                    <a class="logo-a" href="#">
-                                        <img src="images/icons/yt.svg" alt="yt">
-                                    </a>
                                 </div>
+
+                                <div class="end-part">
+                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
+
+                                    <div class="logo-container">
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/fb.svg" alt="fb">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                        </a>
+                                        <a class="logo-a" href="#">
+                                            <img src="images/icons/yt.svg" alt="yt">
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
+
 
                         </div>
                     </div>
 
-                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-scrollbar swiper2-scrollbar"></div>
 
                 </div>
 

@@ -154,11 +154,65 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 2.5,
             spaceBetween: 10,
         },
-        // when window width is >= 1000px
+        // when window width is >= 960px
         960: {
             slidesPerView: 3.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 1200px
+        1200: {
+            slidesPerView: 4,
+            spaceBetween: 27,
+        },
+    }
+
+});
+
+const swiper2 = new Swiper('.swiper2', {
+    direction: 'horizontal',
+
+    scrollbar: {
+        el: '.swiper2-scrollbar',
+    },
+
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+        },
+        // when window width is >= 435px
+        435: {
+            slidesPerView: 1.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 595px
+        595: {
+            slidesPerView: 1.75,
+            spaceBetween: 27,
+        },
+        // when window width is >= 765px
+        765: {
+            slidesPerView: 2.25,
+            spaceBetween: 27,
+        },
+        // when window width is >= 960px
+        960: {
+            slidesPerView: 2.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 1420px
+        1420: {
+            slidesPerView: 3.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 1620px
+        1620: {
+            slidesPerView: 4,
             spaceBetween: 27,
         }
     }
 
 });
+
+

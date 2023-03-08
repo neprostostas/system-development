@@ -1383,12 +1383,14 @@ button img {
     margin-top: 100px;
 }
 
-.cases-swiper .swiper-slide {
+.cases-swiper .swiper-slide .container {
     padding: 28px 20px 0;
     display: grid;
     gap: 15px;
     align-content: space-between;
+    height: calc(100% - 25px);
 }
+
 
 .cases-swiper h3 {
     font-family: 'Montserrat', sans-serif;
@@ -1549,6 +1551,7 @@ button img {
 .main-form .content-block {
     padding: 65px 125px 55px;
     background: rgba(0, 0, 0, 0.28);
+    -webkit-backdrop-filter: blur(55px);
     backdrop-filter: blur(55px);
     border-radius: 12px;
 }
@@ -2204,6 +2207,10 @@ button img {
 
 @media (max-width: 1200px) {
 
+    .ukraine-block .ukraine-img {
+        margin-top: -160px;
+    }
+
     .cases-swiper h3 {
         font-size: 24px;
     }
@@ -2382,6 +2389,10 @@ button img {
 }
 
 @media (max-width: 1020px) {
+
+    .ukraine-block .ukraine-img {
+        margin-top: -90px;
+    }
 
     .map-block .ukraine-block h2 {
         line-height: 40px;
@@ -2773,6 +2784,10 @@ button img {
         width: 400px!important;
     }
 
+    .others-block .romania-block img {
+        width: 300px!important;
+    }
+
     .romania-block h2 {
         padding-top: 20px;
     }
@@ -2978,6 +2993,17 @@ button img {
 
 @media (max-width: 710px) {
 
+    .others-block .kazakhstan-block img {
+        margin-left: 25px;
+        margin-bottom: -30px;
+        width: 250px!important;
+    }
+
+    .others-block .romania-block img {
+        margin-left: 60px;
+        width: 180px!important;
+    }
+
     .footer-content {
         padding: 0 20px;
     }
@@ -3027,6 +3053,10 @@ button img {
 
 @media (max-width: 680px) {
 
+    .ukraine-block .ukraine-img {
+        margin-top: -30px;
+    }
+
     .middle-section {
         display: none;
     }
@@ -3051,10 +3081,6 @@ button img {
 
     .others-block img {
         width: 350px!important;
-    }
-
-    .cases-swiper .swiper-slide {
-        width: 295px!important;
     }
 
     .close-mlf {
@@ -3190,6 +3216,10 @@ button img {
 }
 
 @media (max-width: 490px) {
+
+    .ukraine-block .ukraine-img {
+        margin-top: 0;
+    }
 
     .final-block {
         margin: 750px 0 100px;
