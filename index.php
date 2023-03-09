@@ -19,7 +19,7 @@
 
     <div class="video-block">
 
-        <video class="video" autoplay loop muted>
+        <video class="video" playsinline autoplay loop muted>
             <source src="assets/videos/intro.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
