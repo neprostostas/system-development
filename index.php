@@ -19,10 +19,7 @@
 
     <div class="video-block">
 
-        <video class="video" playsinline autoplay loop muted>
-            <source src="assets/videos/intro.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <video class="video" playsinline autoplay loop muted src="assets/videos/intro.mp4" type="video/mp4"></video>
 
         <h3>
             Запускаємо рекламу та будуємо цілу систему
