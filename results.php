@@ -17,16 +17,17 @@
 <body>
 	<?php require "@commons/header.php" ?>
 
+    <div class="results-top-block">
+
+        <h2>Найчастіше з чим стикаються наші клієнти до роботи з нами це:</h2>
+
+        <img class="scroll-button" src="assets/images/icons/scroll-button-red.svg" alt="scroll-button-red">
+
+    </div>
+
     <div class="body-container">
         <div class="body-content results">
 
-            <div class="results-top-block">
-
-                <h2>Найчастіше з чим стикаються наші клієнти до роботи з нами це:</h2>
-
-                <img class="scroll-button" src="assets/images/icons/scroll-button-red.svg" alt="scroll-button-red">
-
-            </div>
             <div class="block-specialist">
 
                 <div class="taps-section">
@@ -68,24 +69,24 @@
 
             </div>
 
-            <div class="complex-block">
-
-                <div class="work-complex">
-                    <img class="laptop-complex" src="assets/images/laptop-results.png" alt="laptop-results">
-
-                    <div class="txt-part">
-                        <div class="green-block"></div>
-                        <div class="work-info-block">
-                            <h3>Для чого витрачати сотні тисяч гривень на утримання штату працівників чи наймати декілька різних підрядників, якщо можна <span>все доручити одній підрядній організації, яка зробить все максимально фахово та з економією вашого бюджету?</span></h3>
-                            <button>
-                                Детальніше
-                                <img src="assets/images/icons/arrow.svg" alt="arrow">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+<!--            <div class="complex-block">-->
+<!---->
+<!--                <div class="work-complex">-->
+<!--                    <img class="laptop-complex" src="assets/images/laptop-results.png" alt="laptop-results">-->
+<!---->
+<!--                    <div class="txt-part">-->
+<!--                        <div class="green-block"></div>-->
+<!--                        <div class="work-info-block">-->
+<!--                            <h3>Для чого витрачати сотні тисяч гривень на утримання штату працівників чи наймати декілька різних підрядників, якщо можна <span>все доручити одній підрядній організації, яка зробить все максимально фахово та з економією вашого бюджету?</span></h3>-->
+<!--                            <button>-->
+<!--                                Детальніше-->
+<!--                                <img src="assets/images/icons/arrow.svg" alt="arrow">-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
 
 
         </div>

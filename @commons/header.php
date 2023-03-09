@@ -6,7 +6,7 @@
 
                 <div class="tel-wrapper">
                     <a class="logo-a tablet-logo" href="../index.php">
-                        <img src="../assets/images/logo.png" alt="logo">
+                        <img class="logo-img" src="../assets/images/logo.svg" alt="logo">
                     </a>
                     <a class="link-tel-desktop" href="tel:+380730502550">+38 073 050 25 50</a>
                     <a class="link-tel-desktop" href="tel:+380680502550">+38 068 050 25 50</a>
@@ -27,7 +27,7 @@
             <div class="middle-section">
 
                 <a class="logo-a" href="../index.php">
-                    <img src="../assets/images/logo.png" alt="logo">
+                    <img class="logo-img" src="../assets/images/logo.svg" alt="logo">
                 </a>
 
                 <div class="infogroup-container">
@@ -72,7 +72,7 @@
     <div class="mobile-nav-container">
 
         <a class="logo-a" href="../index.php">
-            <img class="mobile-logo" src="../assets/images/logo.png" alt="logo">
+            <img class="logo-img mobile-logo" src="../assets/images/logo.svg" alt="logo">
         </a>
         <div class="mobile-nav">
             <input type="checkbox" id="active">
@@ -82,7 +82,7 @@
                 <div class="content-container">
 
                     <a class="logo-a" href="../index.php">
-                        <img src="../assets/images/logo.png" alt="logo">
+                        <img class="logo-img" src="../assets/images/logo.svg" alt="logo">
                     </a>
 
                     <ul class="mob-ul">

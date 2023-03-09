@@ -17,16 +17,16 @@
 <body>
 	<?php require "@commons/header.php" ?>
 
+    <div class="features-top-block">
+
+        <h2>Ми єдина компанія, яка спеціалізується <span>лише на бізнесах вузької поєднаної тематики</span></h2>
+
+        <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+
+    </div>
+
     <div class="body-container">
         <div class="body-content features">
-
-            <div class="features-top-block">
-
-                <h2>Ми єдина компанія, яка спеціалізується <span>лише на бізнесах вузької поєднаної тематики</span></h2>
-
-                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
-
-            </div>
             <div class="block-developers">
                 <div class="left-part">
                     <div class="green-block"></div>
@@ -346,7 +346,6 @@
                 </div>
 
             </div>
-
             <div class="phone-form">
                 <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
@@ -377,7 +376,6 @@
                 </div>
 
             </div>
-
             <div class="final-block">
 
                 <img src="assets/images/lvl-up.png" alt="lvl-up">
@@ -388,8 +386,6 @@
                 </div>
 
             </div>
-
-
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">

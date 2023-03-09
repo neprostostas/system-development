@@ -17,28 +17,29 @@
 <body>
 	<?php require "@commons/header.php" ?>
 
+    <div class="video-block">
+
+        <video class="video" autoplay loop muted>
+            <source src="assets/videos/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>
+            Запускаємо рекламу та будуємо цілу систему
+            <span>лише будівельній та ремонтній нішам!</span>
+        </h3>
+
+        <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+
+        <div class="bt-rt-button">
+            <img src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+        </div>
+
+    </div>
+
     <div class="body-container">
         <div class="body-content">
 
-            <div class="video-block">
-
-                <video class="video" autoplay loop muted>
-                    <source src="assets/videos/intro.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-
-                <h3>
-                    Запускаємо рекламу та будуємо цілу систему
-                    <span>лише будівельній та ремонтній нішам!</span>
-                </h3>
-
-                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
-
-                <div class="bt-rt-button">
-                    <img src="assets/images/icons/scroll-button.svg" alt="scroll-button">
-                </div>
-
-            </div>
             <div class="block-developers">
                 <div class="left-part">
                     <div class="green-block"></div>

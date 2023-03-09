@@ -6,7 +6,7 @@
             <div class="top-section">
 
                 <a class="logo-a" href="../index.php">
-                    <img class="logo" src="../assets/images/logo.png" alt="logo">
+                    <img class="logo" src="../assets/images/logo.svg" alt="logo">
                 </a>
 
                 <div class="develop-part">

@@ -17,18 +17,20 @@
 <body>
 	<?php require "@commons/header.php" ?>
 
+    <div class="packages-top-block">
+
+        <div class="container">
+            <img class="top-lvl-up" src="assets/images/lvl-up.png" alt="lvl-up">
+            <h4>Зазвичай забудовники мають власний відділ маркетингу або наймають декілька підрядних організацій на різні напрями.</h4>
+        </div>
+
+        <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+
+    </div>
+
     <div class="body-container">
         <div class="body-content packages">
 
-            <div class="packages-top-block">
-
-                <img class="top-lvl-up" src="assets/images/lvl-up.png" alt="lvl-up">
-
-                <h4>Зазвичай забудовники мають власний відділ маркетингу або наймають декілька підрядних організацій на різні напрями.</h4>
-
-                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
-
-            </div>
             <div class="variants-block">
 
                 <h3 class="top">Давайте розглянемо декілька варіантів</h3>
