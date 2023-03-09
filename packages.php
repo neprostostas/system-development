@@ -22,11 +22,11 @@
 
             <div class="packages-top-block">
 
-                <img class="top-lvl-up" src="images/lvl-up.png" alt="lvl-up">
+                <img class="top-lvl-up" src="assets/images/lvl-up.png" alt="lvl-up">
 
                 <h4>Зазвичай забудовники мають власний відділ маркетингу або наймають декілька підрядних організацій на різні напрями.</h4>
 
-                <img class="scroll-button" src="images/icons/scroll-button.svg" alt="scroll-button">
+                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
 
             </div>
             <div class="variants-block">
@@ -65,14 +65,14 @@
 
             </div>
             <div class="tablet-block">
-                <img src="images/tablet.svg" alt="tablet">
+                <img src="assets/images/tablet.png" alt="tablet">
 
                 <div class="text-block">
                     <p>Хіба не простіше залучити одну команду, в якій є всі фахові спеціалісти, які зроблять за найвищими стандартами <span>і, навіть, якщо будуть якісь непорозуміння, ви чітко знаєте, хто відповідальний за результат і до кого можна звернутися.</span></p>
 
                     <button>
                         Детальніше
-                        <img src="images/icons/arrow.svg" alt="arrow">
+                        <img src="assets/images/icons/arrow.svg" alt="arrow">
                     </button>
 
                 </div>
@@ -169,7 +169,7 @@
             </div>
             <div class="final-block">
 
-                <img src="images/lvl-up.png" alt="lvl-up">
+                <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                 <div class="quote-block">
                     <h4>Побудуйте цілу систему бізнесу не вчившись на своїх помилках, а довіртеся одному підряднику, який зробить все</h4>
@@ -187,22 +187,22 @@
 
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-1">
+                            <img src="assets/images/team-1.png" alt="team-1">
                             <h4>Олександр Краєв</h4>
                             <p>Керівник відділу продажів</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-2.svg" alt="team-2">
+                            <img src="assets/images/team-2.png" alt="team-2">
                             <h4>Грицишин Тарас</h4>
                             <p>Гугл</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-3.svg" alt="team-3">
+                            <img src="assets/images/team-3.png" alt="team-3">
                             <h4>Тетяна Кінах</h4>
                             <p>SMM</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-4">
+                            <img src="assets/images/team-1.png" alt="team-4">
                             <h4>Павло Нискогуз</h4>
                             <p>СЕО</p>
                         </div>
@@ -217,14 +217,14 @@
 
                 <div class="top-level">
 
-                    <img src="images/lvl-up.png" alt="lvl-up">
+                    <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                     <h4><span>Ми прихильники послідовної побудови системи бізнесу</span>, бо, як показав досвід, 80% українських компаній не готові починати працювати одразу на другому рівні, тому ми зробили порівневий ріст</h4>
 
                 </div>
                 <div class="info-start">
 
-                    <img src="images/icons/arrow-down.svg" alt="arrow-down">
+                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
 
                     <div class="container-layer">
 
@@ -275,7 +275,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
 
                     <div class="left-block-pro">
                         <h2>Рівень PRO</h2>
-                        <img src="images/pro-tablets.svg" alt="pro-tablets">
+                        <img src="assets/images/pro-tablets.png" alt="pro-tablets">
                     </div>
 
                     <div class="block-level">
@@ -295,7 +295,7 @@
 
                             <div class="lvl-group">
                                 <h4>Рівень 1</h4>
-                                <img class="info-trigger" src="images/icons/info.svg" alt="info">
+                                <img class="info-trigger" src="assets/images/icons/info.svg" alt="info">
                             </div>
                         </div>
 
@@ -340,7 +340,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -350,7 +350,7 @@
                 <div class="modal-level1-form">
                     <div class="modal-level1-form-close"></div>
                     <div class="modal-level1-form-content">
-                        <img class="close-mlf" src="images/icons/close.svg" alt="close">
+                        <img class="close-mlf" src="assets/images/icons/close.svg" alt="close">
 
                         <ul>
                             <li>
@@ -402,7 +402,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -420,16 +420,16 @@
                             <p>Зазвичай ми пропонуємо клієнтам починати працювати з першого рівня, щоб вони змогли побачити результат від співпраці. Ми виявляємо всі проблеми та помилки конкретного бізнесу і тоді вже після проведення повноцінного аналізу та вирішення проблем, які виникають на першому етапі, переходимо на другий, максимально систематизований.</p>
                             <button>
                                 Консультація
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
-                    <img class="laptop-complex" src="images/laptop.svg" alt="laptop">
+                    <img class="laptop-complex" src="assets/images/laptop.png" alt="laptop">
                 </div>
 
             </div>
             <div class="phone-form">
-                <img class="phone-img" src="images/phone.svg" alt="phone">
+                <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
                 <div class="form-blank">
                     <div class="green-block"></div>
@@ -449,7 +449,7 @@
                         </div>
 
                         <button class="enter">
-                            <img src="images/icons/arrow.svg" alt="arrow">
+                            <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
 
                     </div>
@@ -500,7 +500,7 @@
             <div class="modal-level1-form">
                 <div class="modal-level1-form-close"></div>
                 <div class="modal-level1-form-content">
-                    <img class="close-mlf" src="images/icons/close.svg" alt="close">
+                    <img class="close-mlf" src="assets/images/icons/close.svg" alt="close">
 
                     <ul>
                         <li>
@@ -538,7 +538,7 @@
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
-                    <img class="close-mpf" src="images/icons/close.svg" alt="close">
+                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
                     <h2>НАДІСЛАНО!</h2>
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>

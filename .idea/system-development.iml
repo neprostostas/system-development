@@ -12,5 +12,6 @@
     <orderEntry type="library" name="tilt.js" level="application" />
     <orderEntry type="library" name="vanilla-tilt" level="application" />
     <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="@splidejs/splide" level="application" />
   </component>
 </module>

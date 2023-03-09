@@ -22,8 +22,8 @@
 
             <div class="video-block">
 
-                <video class="video" autoplay muted>
-                    <source src="videos/intro.mp4" type="video/mp4">
+                <video class="video" autoplay loop muted>
+                    <source src="assets/videos/intro.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
 
@@ -32,10 +32,10 @@
                     <span>лише будівельній та ремонтній нішам!</span>
                 </h3>
 
-                <img class="scroll-button" src="images/icons/scroll-button.svg" alt="scroll-button">
+                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
 
                 <div class="bt-rt-button">
-                    <img src="images/icons/scroll-button.svg" alt="scroll-button">
+                    <img src="assets/images/icons/scroll-button.svg" alt="scroll-button">
                 </div>
 
             </div>
@@ -46,38 +46,38 @@
                         <h3>ВИРОБНИКИ ТА ДИЛЕРИ</h3>
                         <button>
                             Консультація
-                            <img src="images/icons/arrow.svg" alt="arrow">
+                            <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
                     </div>
                 </div>
                 <div class="right-part">
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-1.svg" alt="line-1">
+                        <img src="assets/images/icons/line-1.svg" alt="line-1">
                         <p>Підлоги</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-2.svg" alt="line-2">
+                        <img src="assets/images/icons/line-2.svg" alt="line-2">
                         <p>Кухонь</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-3.svg" alt="line-3">
+                        <img src="assets/images/icons/line-3.svg" alt="line-3">
                         <p>Сантехніки</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-4.svg" alt="line-4">
+                        <img src="assets/images/icons/line-4.svg" alt="line-4">
                         <p>Дверей</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-5.svg" alt="line-5">
+                        <img src="assets/images/icons/line-5.svg" alt="line-5">
                         <p>Вікон</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-6.svg" alt="line-6">
+                        <img src="assets/images/icons/line-6.svg" alt="line-6">
                         <p>Меблів</p>
                     </div>
                     <div class="square span-three" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-7.svg" alt="line-7">
-                        <img src="images/icons/line-8.svg" alt="line-8">
+                        <img src="assets/images/icons/line-7.svg" alt="line-7">
+                        <img src="assets/images/icons/line-8.svg" alt="line-8">
                         <p>Забудовники</p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="tablet-block">
-                <img src="images/tablet.svg" alt="tablet">
+                <img src="assets/images/tablet.png" alt="tablet">
 
                 <div class="text-block">
                     <p>Утримування власного маркетинг відділу це сотні тисяч гривень витрат.</p>
@@ -106,7 +106,7 @@
 
                     <button>
                         Детальніше
-                        <img src="images/icons/arrow.svg" alt="arrow">
+                        <img src="assets/images/icons/arrow.svg" alt="arrow">
                     </button>
 
                 </div>
@@ -201,7 +201,7 @@
                 </div>
             </div>
             <div class="phone-form">
-                <img class="phone-img" src="images/phone.svg" alt="phone">
+                <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
                 <div class="form-blank">
                     <div class="green-block"></div>
@@ -221,7 +221,7 @@
                         </div>
 
                         <button class="enter">
-                            <img src="images/icons/arrow.svg" alt="arrow">
+                            <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
 
                     </div>
@@ -233,7 +233,7 @@
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
-                    <img class="close-mpf" src="images/icons/close.svg" alt="close">
+                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
                     <h2>НАДІСЛАНО!</h2>
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>
@@ -255,14 +255,14 @@
 
                     <button class="detail-button">
                         Детальніше
-                        <img src="images/icons/arrow.svg" alt="arrow">
+                        <img src="assets/images/icons/arrow.svg" alt="arrow">
                     </button>
 
                 </div>
 
                 <div class="right-easy-block">
 
-                    <img src="images/ipad.svg" alt="iPad">
+                    <img src="assets/images/ipad.png" alt="iPad">
 
                     <div class="easy-block-xs">
                         <div class="green-rectangle"></div>
@@ -302,7 +302,7 @@
 
                 </div>
 
-                <img src="images/laptop.svg" alt="laptop">
+                <img src="assets/images/laptop.png" alt="laptop">
 
             </div>
             <div class="team-swiper">
@@ -316,22 +316,22 @@
 
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-1">
+                            <img src="assets/images/team-1.png" alt="team-1">
                             <h4>Олександр Краєв</h4>
                             <p>Керівник відділу продажів</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-2.svg" alt="team-2">
+                            <img src="assets/images/team-2.png" alt="team-2">
                             <h4>Грицишин Тарас</h4>
                             <p>Гугл</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-3.svg" alt="team-3">
+                            <img src="assets/images/team-3.png" alt="team-3">
                             <h4>Тетяна Кінах</h4>
                             <p>SMM</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-4">
+                            <img src="assets/images/team-1.png" alt="team-4">
                             <h4>Павло Нискогуз</h4>
                             <p>СЕО</p>
                         </div>
@@ -346,14 +346,14 @@
 
                 <div class="top-level">
 
-                    <img src="images/lvl-up.png" alt="lvl-up">
+                    <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                     <h4><span>Ми прихильники послідовної побудови системи бізнесу</span>, бо, як показав досвід, 80% українських компаній не готові починати працювати одразу на другому рівні, тому ми зробили порівневий ріст</h4>
 
                 </div>
                 <div class="info-start">
 
-                    <img src="images/icons/arrow-down.svg" alt="arrow-down">
+                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
 
                     <div class="container-layer">
 
@@ -404,7 +404,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -414,7 +414,7 @@
 
                     <div class="left-block-pro">
                         <h2>Рівень PRO</h2>
-                        <img src="images/pro-tablets.svg" alt="pro-tablets">
+                        <img src="assets/images/pro-tablets.png" alt="pro-tablets">
                     </div>
 
                     <div class="block-level">
@@ -424,7 +424,7 @@
 
                             <div class="lvl-group">
                                 <h4>Рівень 1</h4>
-                                <img class="info-trigger" src="images/icons/info.svg" alt="info">
+                                <img class="info-trigger" src="assets/images/icons/info.svg" alt="info">
                             </div>
                         </div>
 
@@ -469,7 +469,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -479,7 +479,7 @@
                 <div class="modal-level1-form">
                     <div class="modal-level1-form-close"></div>
                     <div class="modal-level1-form-content">
-                        <img class="close-mlf" src="images/icons/close.svg" alt="close">
+                        <img class="close-mlf" src="assets/images/icons/close.svg" alt="close">
 
                         <ul>
                             <li>
@@ -531,7 +531,7 @@
                             <h3>Вартість</h3>
                             <button>
                                 Замовити
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -585,17 +585,17 @@
                                 </div>
 
                                 <div class="end-part">
-                                    <img class="product-slide" src="images/product-1.svg" alt="product-1">
+                                    <img class="product-slide" src="assets/images/product-1.png" alt="product-1">
 
                                     <div class="logo-container">
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/fb.svg" alt="fb">
+                                            <img src="assets/images/icons/fb.svg" alt="fb">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                            <img src="assets/images/icons/pinterest.svg" alt="pinterest">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/yt.svg" alt="yt">
+                                            <img src="assets/images/icons/yt.svg" alt="yt">
                                         </a>
                                     </div>
                                 </div>
@@ -632,17 +632,17 @@
                                 </div>
 
                                 <div class="end-part">
-                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
+                                    <img class="product-slide" src="assets/images/product-2.png" alt="product-2">
 
                                     <div class="logo-container">
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/fb.svg" alt="fb">
+                                            <img src="assets/images/icons/fb.svg" alt="fb">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                            <img src="assets/images/icons/pinterest.svg" alt="pinterest">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/yt.svg" alt="yt">
+                                            <img src="assets/images/icons/yt.svg" alt="yt">
                                         </a>
                                     </div>
                                 </div>
@@ -680,17 +680,17 @@
                                 </div>
 
                                 <div class="end-part">
-                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
+                                    <img class="product-slide" src="assets/images/product-2.png" alt="product-2">
 
                                     <div class="logo-container">
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/fb.svg" alt="fb">
+                                            <img src="assets/images/icons/fb.svg" alt="fb">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                            <img src="assets/images/icons/pinterest.svg" alt="pinterest">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/yt.svg" alt="yt">
+                                            <img src="assets/images/icons/yt.svg" alt="yt">
                                         </a>
                                     </div>
                                 </div>
@@ -730,17 +730,17 @@
                                 </div>
 
                                 <div class="end-part">
-                                    <img class="product-slide" src="images/product-2.svg" alt="product-2">
+                                    <img class="product-slide" src="assets/images/product-2.png" alt="product-2">
 
                                     <div class="logo-container">
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/fb.svg" alt="fb">
+                                            <img src="assets/images/icons/fb.svg" alt="fb">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/pinterest.svg" alt="pinterest">
+                                            <img src="assets/images/icons/pinterest.svg" alt="pinterest">
                                         </a>
                                         <a class="logo-a" href="#">
-                                            <img src="images/icons/yt.svg" alt="yt">
+                                            <img src="assets/images/icons/yt.svg" alt="yt">
                                         </a>
                                     </div>
                                 </div>
@@ -760,16 +760,16 @@
 
                 <div class="ukraine-block">
                     <h2>Наші клієнти вже присутні у <span>11 містах України</span></h2>
-                    <img class="ukraine-img" src="images/ukraine-phone.svg" alt="ukraine-phone">
+                    <img class="ukraine-img" src="assets/images/ukraine-phone.png" alt="ukraine-phone">
                 </div>
 
                 <div class="others-block">
                     <div class="kazakhstan-block">
                         <h2><span>6 містах</span> Казахстану</h2>
-                        <img class="kazakhstan-img" src="images/kazakhstan.svg" alt="kazakhstan-map">
+                        <img class="kazakhstan-img" src="assets/images/kazakhstan.png" alt="kazakhstan-map">
                     </div>
                     <div class="romania-block">
-                        <img class="romania-img" src="images/romania.svg" alt="romania-map">
+                        <img class="romania-img" src="assets/images/romania.png" alt="romania-map">
                         <h2>І в <span>3 містах</span> Румунії</h2>
                     </div>
                 </div>
@@ -777,7 +777,7 @@
             </div>
             <div class="main-form">
 
-                <img class="bg-circles" src="images/form-back.svg" alt="form-back">
+                <img class="bg-circles" src="assets/images/form-back.png" alt="form-back">
 
                 <div class="content-block">
                     <h3>Наші спеціалісти онлайн</h3>
@@ -798,7 +798,7 @@
                             </div>
 
                             <button class="enter enter2">
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
 
                         </div>
@@ -815,10 +815,10 @@
             </div>
             <div class="final-block">
 
-                <img src="images/lvl-up.png" alt="lvl-up">
+                <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                 <div class="quote-block">
-                    <img src="images/icons/quotes.svg" alt="quotes">
+                    <img src="assets/images/icons/quotes.svg" alt="quotes">
                     <h4>Побудуйте цілу систему бізнесу не вчившись на своїх помилках, а довіртеся одному підряднику, який зробить все</h4>
                 </div>
 

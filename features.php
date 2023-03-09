@@ -24,7 +24,7 @@
 
                 <h2>Ми єдина компанія, яка спеціалізується <span>лише на бізнесах вузької поєднаної тематики</span></h2>
 
-                <img class="scroll-button" src="images/icons/scroll-button.svg" alt="scroll-button">
+                <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
 
             </div>
             <div class="block-developers">
@@ -34,44 +34,44 @@
                         <h3>ВИРОБНИКИ ТА ДИЛЕРИ</h3>
                         <button>
                             Консультація
-                            <img src="images/icons/arrow.svg" alt="arrow">
+                            <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
                     </div>
                 </div>
                 <div class="right-part">
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-1.svg" alt="line-1">
+                        <img src="assets/images/icons/line-1.svg" alt="line-1">
                         <p>Підлоги</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-2.svg" alt="line-2">
+                        <img src="assets/images/icons/line-2.svg" alt="line-2">
                         <p>Кухонь</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-3.svg" alt="line-3">
+                        <img src="assets/images/icons/line-3.svg" alt="line-3">
                         <p>Сантехніки</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-4.svg" alt="line-4">
+                        <img src="assets/images/icons/line-4.svg" alt="line-4">
                         <p>Дверей</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-5.svg" alt="line-5">
+                        <img src="assets/images/icons/line-5.svg" alt="line-5">
                         <p>Вікон</p>
                     </div>
                     <div class="square" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-6.svg" alt="line-6">
+                        <img src="assets/images/icons/line-6.svg" alt="line-6">
                         <p>Меблів</p>
                     </div>
                     <div class="square span-three" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <img src="images/icons/line-7.svg" alt="line-7">
-                        <img src="images/icons/line-8.svg" alt="line-8">
+                        <img src="assets/images/icons/line-7.svg" alt="line-7">
+                        <img src="assets/images/icons/line-8.svg" alt="line-8">
                         <p>Забудовники</p>
                     </div>
                 </div>
             </div>
             <div class="tablet-block">
-                <img src="images/laptop-features.svg" alt="laptop-features">
+                <img src="assets/images/laptop-features.png" alt="laptop-features">
 
                 <div class="text-block">
                     <p>Утримування власного маркетинг відділу це сотні тисяч гривень витрат.</p>
@@ -80,7 +80,7 @@
 
                     <button>
                         Детальніше
-                        <img src="images/icons/arrow.svg" alt="arrow">
+                        <img src="assets/images/icons/arrow.svg" alt="arrow">
                     </button>
 
                 </div>
@@ -184,7 +184,7 @@
                             <p>Тобто ми приходимо до вас у компанію та налагоджуємо лідогенерацію з усіх можливих джерел, вчимо менеджерів правильно опрацьовувати та “доводити” людей до купівлі і потім на підставі всіх даних будуємо повну аналітику</p>
                             <button>
                                 Детальніше
-                                <img src="images/icons/arrow.svg" alt="arrow">
+                                <img src="assets/images/icons/arrow.svg" alt="arrow">
                             </button>
                         </div>
                     </div>
@@ -192,44 +192,44 @@
 
                         <div class="ads-part">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/google-ads.svg" alt="google-ads">
+                                <img src="assets/images/icons/google-ads.svg" alt="google-ads">
                                 <p>Google Ads</p>
                             </a>
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/olx.svg" alt="olx">
+                                <img src="assets/images/icons/olx.svg" alt="olx">
                                 <p>OLX</p>
                             </a>
                         </div>
 
                         <div class="ads-part">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/viber.svg" alt="viber">
+                                <img src="assets/images/icons/viber.svg" alt="viber">
                                 <p>Viber</p>
                             </a>
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/fb-ads.svg" alt="fb-ads">
+                                <img src="assets/images/icons/fb-ads.svg" alt="fb-ads">
                                 <p>Facebook Ads</p>
                             </a>
                         </div>
 
                         <div class="ads-part">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/instagram.svg" alt="instagram">
+                                <img src="assets/images/icons/instagram.svg" alt="instagram">
                                 <p>Instagram</p>
                             </a>
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/prom.svg" alt="prom">
+                                <img src="assets/images/icons/prom.svg" alt="prom">
                                 <p>Prom.ua</p>
                             </a>
                         </div>
 
                         <div class="ads-part">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/yt-ads.svg" alt="youtube">
+                                <img src="assets/images/icons/yt-ads.svg" alt="youtube">
                                 <p>Уoutube</p>
                             </a>
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                                <img src="images/icons/google-chrome.svg" alt="google-chrome">
+                                <img src="assets/images/icons/google-chrome.svg" alt="google-chrome">
                                 <p>Google</p>
                             </a>
                         </div>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="ipad-block">
 
-                    <img class="ipad" src="images/ipad-features.svg" alt="ipad-features">
+                    <img class="ipad" src="assets/images/ipad-features.png" alt="ipad-features">
 
                     <div class="content-ipad">
 
@@ -249,15 +249,15 @@
 
                         <ul class="ipad-ul">
                             <li>
-                                <img src="images/icons/point.svg" alt="point">
+                                <img src="assets/images/icons/point.svg" alt="point">
                                 <p>Чітко розуміти конверсію та ефективність кожного менеджера</p>
                             </li>
                             <li>
-                                <img src="images/icons/point.svg" alt="point">
+                                <img src="assets/images/icons/point.svg" alt="point">
                                 <p>Отримувати всі дані в прозорому та зрозумілому вигляді, легкому для опрацювання, а не через таблички в Excel в кращому випадку.</p>
                             </li>
                             <li>
-                                <img src="images/icons/point.svg" alt="point">
+                                <img src="assets/images/icons/point.svg" alt="point">
                                 <p>Розуміти ефективність кожного напрямку реклами і бачити, куди варто більше інвестувати, а куди менше.</p>
                             </li>
                         </ul>
@@ -306,7 +306,7 @@
 
                 </div>
 
-                <img src="images/surface-laptop.svg" alt="surface-laptop">
+                <img src="assets/images/surface-laptop.png" alt="surface-laptop">
 
             </div>
             <div class="team-swiper">
@@ -320,22 +320,22 @@
 
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-1">
+                            <img src="assets/images/team-1.png" alt="team-1">
                             <h4>Олександр Краєв</h4>
                             <p>Керівник відділу продажів</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-2.svg" alt="team-2">
+                            <img src="assets/images/team-2.png" alt="team-2">
                             <h4>Грицишин Тарас</h4>
                             <p>Гугл</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-3.svg" alt="team-3">
+                            <img src="assets/images/team-3.png" alt="team-3">
                             <h4>Тетяна Кінах</h4>
                             <p>SMM</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/team-1.svg" alt="team-4">
+                            <img src="assets/images/team-1.png" alt="team-4">
                             <h4>Павло Нискогуз</h4>
                             <p>СЕО</p>
                         </div>
@@ -348,7 +348,7 @@
             </div>
 
             <div class="phone-form">
-                <img class="phone-img" src="images/phone.svg" alt="phone">
+                <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
                 <div class="form-blank">
                     <div class="green-block"></div>
@@ -368,7 +368,7 @@
                         </div>
 
                         <button class="enter">
-                            <img src="images/icons/arrow.svg" alt="arrow">
+                            <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
 
                     </div>
@@ -380,10 +380,10 @@
 
             <div class="final-block">
 
-                <img src="images/lvl-up.png" alt="lvl-up">
+                <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                 <div class="quote-block">
-                    <img src="images/icons/quotes.svg" alt="quotes">
+                    <img src="assets/images/icons/quotes.svg" alt="quotes">
                     <h4>Побудуйте цілу систему бізнесу не вчившись на своїх помилках, а довіртеся одному підряднику, який зробить все</h4>
                 </div>
 
@@ -393,7 +393,7 @@
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
-                    <img class="close-mpf" src="images/icons/close.svg" alt="close">
+                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
                     <h2>НАДІСЛАНО!</h2>
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>

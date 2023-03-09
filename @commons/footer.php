@@ -6,7 +6,7 @@
             <div class="top-section">
 
                 <a class="logo-a" href="../index.php">
-                    <img class="logo" src="../images/logo.svg" alt="logo">
+                    <img class="logo" src="../assets/images/logo.png" alt="logo">
                 </a>
 
                 <div class="develop-part">
@@ -50,7 +50,7 @@
                             </div>
 
                             <button class="enter enter3">
-                                <img src="../images/icons/arrow.svg" alt="arrow">
+                                <img src="../assets/images/icons/arrow.svg" alt="arrow">
                             </button>
 
                         </div>
@@ -59,13 +59,13 @@
 
                     <div class="logo-container">
                         <a class="logo-a" href="#">
-                            <img src="../images/icons/fb.svg" alt="fb">
+                            <img src="../assets/images/icons/fb.svg" alt="fb">
                         </a>
                         <a class="logo-a" href="#">
-                            <img src="../images/icons/pinterest.svg" alt="pinterest">
+                            <img src="../assets/images/icons/pinterest.svg" alt="pinterest">
                         </a>
                         <a class="logo-a" href="#">
-                            <img src="../images/icons/yt.svg" alt="yt">
+                            <img src="../assets/images/icons/yt.svg" alt="yt">
                         </a>
                     </div>
 
