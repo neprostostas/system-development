@@ -24,9 +24,12 @@
             <h4>Зазвичай забудовники мають власний відділ маркетингу або наймають декілька підрядних організацій на різні напрями.</h4>
         </div>
 
-        <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+        <a href="#section1" class="anchor">
+            <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+        </a>
 
     </div>
+    <div id="section1" class="anchor-block"></div>
 
     <div class="body-container">
         <div class="body-content packages">

@@ -29,13 +29,16 @@
             <span>лише будівельній та ремонтній нішам!</span>
         </h3>
 
-        <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+        <a href="#section1" class="anchor">
+            <img class="scroll-button" src="assets/images/icons/scroll-button.svg" alt="scroll-button">
+        </a>
 
         <div class="bt-rt-button">
             <img src="assets/images/icons/scroll-button.svg" alt="scroll-button">
         </div>
 
     </div>
+    <div id="section1" class="anchor-block"></div>
 
     <div class="body-container">
         <div class="body-content">

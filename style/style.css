@@ -35,6 +35,10 @@
 /* 4. CUSTOM CSS */
 /*-------------------------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--color-main);
 }
@@ -403,7 +407,11 @@ button img {
     color: var(--color-white);
 }
 
-.body-content.packages .packages-top-block, .results-top-block {
+.results-top-block h2 {
+    width: 600px;
+}
+
+.body-content.packages .packages-top-block, .results-top-block, .features-top-block {
     position: relative;
     z-index: 2;
 }
@@ -2446,14 +2454,35 @@ button img {
     color: var(--color-red);
 }
 
+.anchor-block {
+    position: relative;
+    top: -140px;
+    height: 0;
+}
 
 
+.body-content.results .laptop-complex {
+    width: 100%;
+}
 
+.body-content.results .work-complex {
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.body-content.results .complex-block h3 {
+    padding-bottom: 50px;
+    text-transform: none;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 128%;
+    color: var(--color-white);
+}
 
-
-
-
+.body-content.results .complex-block h3 span {
+    color: var(--color-green-square);
+}
 
 
 
@@ -2670,6 +2699,10 @@ button img {
 }
 
 @media (max-width: 1415px) {
+
+    .body-content.results .complex-block h3 {
+        font-size: 26px;
+    }
 
     .phone-form h2 {
         max-width: 400px;
@@ -2917,7 +2950,7 @@ button img {
         margin: 0 60px;
     }
 
-    .body-content.results :is(.block-specialist, .results-top-block) {
+    .body-content.results :is(.block-specialist, .results-top-block, .complex-block) {
         padding: 0 60px;
     }
 
@@ -3320,6 +3353,10 @@ button img {
 
 @media (max-width: 1020px) {
 
+    .body-content.results .work-complex {
+        gap: 25px;
+    }
+
     .body-content.results .block-specialist .taps-section p {
         font-size: 20px;
     }
@@ -3635,6 +3672,10 @@ button img {
 
 @media (max-width: 930px) {
 
+    .body-content.results .work-complex {
+        grid-template-columns: auto;
+    }
+
     .body-content.packages .tablet-block p {
         font-size: 22px;
     }
@@ -3675,7 +3716,7 @@ button img {
         right: -40px;
     }
 
-    .body-content.results :is(.block-specialist, .results-top-block) {
+    .body-content.results :is(.block-specialist, .results-top-block, .complex-block) {
         padding: 0 20px;
     }
 
@@ -3879,6 +3920,11 @@ button img {
 }
 
 @media (max-width: 795px) {
+
+    .results-top-block h2 {
+        width: unset;
+    }
+
 
     .rline-1 {
         display: none;
@@ -4179,6 +4225,10 @@ button img {
 
 @media (max-width: 680px) {
 
+    .anchor-block {
+        top: -60px;
+    }
+
     .piece {
         width: 160px;
     }
@@ -4233,6 +4283,11 @@ button img {
 }
 
 @media (max-width: 665px) {
+
+    .body-content.results .complex-block h3 {
+        font-size: 22px;
+    }
+
 
     .packages-top-block .container {
         width: 400px;
