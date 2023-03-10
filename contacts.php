@@ -20,14 +20,14 @@
     <div class="body-container">
         <div class="body-content contacts">
 
-            <h2>Контакти</h2>
+
 
         </div>
     </div>
 
     <?php require "@commons/footer.php" ?>
 
-    <script src="js/main.js"></script>
+    <script src="js/contacts.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </body>
 </html>

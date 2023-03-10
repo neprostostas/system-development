@@ -1798,23 +1798,6 @@ button img {
     border-top: 1px solid #494949;
 }
 
-/*-------------------------------------------------------------------------------*/
-/* 5. OTHER PAGES */
-/*-------------------------------------------------------------------------------*/
-
-.body-content:is(.niches, .contacts) {
-    padding-top: 300px;
-    height: 400px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    color: var(--color-white);
-}
-
-/* *********************** */
-
 .complex-block {
     position: relative;
     z-index: 2;
@@ -2953,12 +2936,36 @@ button img {
     font-weight: 600;
 }
 
+.body-content.results .laptop-block {
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+.body-content.results .laptop-block .text-cont h2 {
+    max-width: 320px;
+}
+
+/* **************************************** */
+/* change when niches page will be designed */
+/* **************************************** */
+
+.body-content:is(.niches) {
+    padding-top: 300px;
+    height: 400px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+/* **************************************** */
 
 
+.body-content.contacts {
 
-
-
-
+}
 
 
 
@@ -2974,7 +2981,7 @@ button img {
 
 
 /*-------------------------------------------------------------------------------*/
-/* 6. MEDIA QUERIES */
+/* 5. MEDIA QUERIES */
 /*-------------------------------------------------------------------------------*/
 
 @media (max-width: 1425px) {

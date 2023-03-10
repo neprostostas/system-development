@@ -647,6 +647,20 @@
                 </div>
             </div>
             <div class="final-block"></div>
+            <div class="laptop-block">
+
+                <div class="info-laptop">
+
+                    <div class="text-cont">
+                        <div class="green-block"></div>
+                        <h2>Доступні пакети</h2>
+                    </div>
+
+                </div>
+
+                <img class="iphones-results" src="assets/images/iphones-results.png" alt="iphones-results">
+
+            </div>
 
         </div>
     </div>
