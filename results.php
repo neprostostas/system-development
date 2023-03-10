@@ -89,8 +89,6 @@
                 </div>
 
             </div>
-
-
             <div class="mozaik-1">
 
                 <h3>Приклад вартості утримання власного відділу</h3>
@@ -232,10 +230,100 @@
 
                     </div>
 
+                </div>
+
+            </div>
+            <div class="mozaik-2">
+
+                <h3>Приклад вартості послуг в інших агенствах, якщо збирати ці послуги від різних підрядників</h3>
+
+                <div class="mozaik2-container">
+
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p class="max-w"><span>Таргет</span> (агенство хорошого рівня)</p>
+
+                            <p class="mozaik2-price">~ 400-500$ місяць</p>
+                        </div>
+
+                        <img class="mozaik2-img-1" src="assets/images/icons/mozaik-2-1.svg" alt="mozaik-2-1">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p><span>Гугл агенство</span></p>
+
+                            <p class="mozaik2-price">~ 300$ місяць</p>
+
+                            <p class="tp-12"><span>+</span> часто беруть доплати за налаштування гугл шопінгу, кмс реклами і т.д.</p>
+                        </div>
+
+                        <img class="mozaik2-img-2" src="assets/images/icons/mozaik-2-2.png" alt="mozaik-2-2">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p><span>СММ</span> базовий</p>
+
+                            <p class="mozaik2-price">~ 200-400$ місяць</p>
+                        </div>
+
+                        <img class="mozaik2-img-3" src="assets/images/icons/mozaik-2-3.svg" alt="mozaik-2-3">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p><span>Навчання менеджерів</span></p>
+
+                            <p class="mozaik2-price">~ 1000грн</p>
+                            <p class="group-lesson">1 місяць, 1 людина (групові навчання)</p>
+                        </div>
+
+                        <img class="mozaik2-img-4" src="assets/images/icons/mozaik-2-4.svg" alt="mozaik-2-4">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p><span>CRM</span>, залежить від типу</p>
+
+                            <p class="mozaik2-price">~ 1000грн/година</p>
+                        </div>
+
+                        <img class="mozaik2-img-5" src="assets/images/icons/mozaik-2-5.svg" alt="mozaik-2-5">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p class="group-lesson"><span>Маркетплейси</span> майже ніхто не надає послуги по маркетплейсах</p>
+                        </div>
+
+                        <img class="mozaik2-img-6" src="assets/images/icons/mozaik-2-6.svg" alt="mozaik-2-6">
+
+                    </div>
+                    <div class="mozaik2-block" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+
+                        <div class="mozaik2-text">
+                            <p><span>BAF</span>, залежить від типу</p>
+
+                            <p class="mozaik2-price">~ 1000грн/година</p>
+                        </div>
+
+                        <img class="mozaik2-img-7" src="assets/images/icons/mozaik-2-7.svg" alt="mozaik-2-7">
+
+                    </div>
+
 
                 </div>
 
             </div>
+
+
 
 
         </div>
