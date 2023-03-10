@@ -1,8 +1,55 @@
-// const telInput2 = document.getElementById('tel2');
+const swiper2 = new Swiper('.swiper2', {
+    direction: 'horizontal',
+
+    scrollbar: {
+        el: '.swiper2-scrollbar',
+    },
+
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+        },
+        // when window width is >= 435px
+        435: {
+            slidesPerView: 1.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 595px
+        595: {
+            slidesPerView: 1.75,
+            spaceBetween: 27,
+        },
+        // when window width is >= 765px
+        765: {
+            slidesPerView: 2.25,
+            spaceBetween: 27,
+        },
+        // when window width is >= 960px
+        960: {
+            slidesPerView: 2.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 1420px
+        1420: {
+            slidesPerView: 3.5,
+            spaceBetween: 27,
+        },
+        // when window width is >= 1620px
+        1620: {
+            slidesPerView: 4,
+            spaceBetween: 27,
+        }
+    }
+
+});
+
+const telInput2 = document.getElementById('tel2');
 const telInput3 = document.getElementById('tel3');
-// IMask(telInput2, {
-//     mask: '+38 (000) 000 00 00'
-// });
+IMask(telInput2, {
+    mask: '+38 (000) 000 00 00'
+});
 IMask(telInput3, {
     mask: '+38 (000) 000 00 00'
 });
@@ -23,10 +70,41 @@ activeCheckbox.addEventListener('change', function() {
     }
 });
 
+const modalPhoneForm = document.querySelector('.modal-phone-form');
+const modalPhoneFormClose = document.querySelector('.modal-phone-form-close');
+const buttonEnter = document.querySelector('.enter');
+const buttonEnter2 = document.querySelector('.enter2');
+const buttonEnter3 = document.querySelector('.enter3');
+const closeMPF = document.querySelector('.close-mpf');
+
+modalPhoneFormClose.addEventListener('click', function() {
+    modalPhoneForm.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+closeMPF.addEventListener('click', function() {
+    modalPhoneForm.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+});
+
+buttonEnter.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
+
+buttonEnter2.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
+
+buttonEnter3.addEventListener('click', function() {
+    modalPhoneForm.classList.add('active');
+    document.body.classList.add('no-scroll');
+});
 
 // script to create BLUR elements
 const container = document.querySelector('.body-content.results');
-let numberOfDivs = 5; // Set the number of divs you want to create (for desktop)
+let numberOfDivs = 12; // Set the number of divs you want to create (for desktop)
 let topPosition = 200;
 
 if (window.innerWidth >= 1200) {
@@ -64,7 +142,7 @@ if (window.innerWidth >= 1200) {
     console.log("mobile");
 
     topPosition = 800;
-    numberOfDivs = 2; // Set the number of divs you want to create (for mobile)
+    numberOfDivs = 6; // Set the number of divs you want to create (for mobile)
 
     for (let i = 0; i < numberOfDivs; i++) {
         const div = document.createElement("div");
