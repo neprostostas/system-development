@@ -323,7 +323,41 @@
 
             </div>
 
+            <div class="all-easy">
 
+                <div class="left-easy-block">
+
+                    <h2>Пояснення офферу</h2>
+
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <div class="text-offer">
+                            <p>Ми знімаємо всі клопоти з власника бізнесу, подаючи прозорий і чіткий звіт по всіх напрямках.</p>
+                            <p class="green">“Ми не є чарівниками і не будемо обіцяти, що завтра ви збільшите свій прибуток в 25 разів, але точно знаємо, що і як робити для побудови повноцінної системи у вашому бізнесі.”</p>
+                        </div>
+
+                    </div>
+                    <div class="easy-block-xs">
+                        <div class="green-rectangle"></div>
+                        <p>Наша особливість в тому, що ми комплексно готові “закрити під ключ” весь онлайн напрям вашого бізнесу від написання текстів та створення картинок до навчання менеджерів та побудови повної та чіткої аналітики по всіх онлайн-процесах.</p>
+                    </div>
+
+                </div>
+
+                <div class="right-easy-block">
+
+                    <img class="laptop-mobile-results" src="assets/images/laptop-mobile-results.png" alt="laptop-mobile-results">
+
+                    <p class="bold">Наймаючи одну компанію, Ви отримуєте все “під ключ” з чіткими щотижневими звітами та щомісячними зустрічами по обговоренню стратегії розвитку компанії</p>
+
+                    <button class="detail-button">
+                        Детальніше
+                        <img class="arrow-bt" src="assets/images/icons/arrow.svg" alt="arrow">
+                    </button>
+
+                </div>
+
+            </div>
 
 
         </div>
