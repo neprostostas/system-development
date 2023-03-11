@@ -3132,7 +3132,6 @@ button img {
 
 .body-content.contacts .main-form .content-block .form-inner-part p {
     padding: 0 0 10px 0;
-
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -3161,9 +3160,33 @@ button img {
 
 
 
+.packages-top-block.error .container {
+    top: 60%;
+    grid-template-columns: auto;
+    gap: 25px;
+    justify-items: center;
+}
 
+.packages-top-block.error .container h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-white);
+}
 
-
+.packages-top-block.error .container p {
+    max-width: 755px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-white);
+}
 
 /*-------------------------------------------------------------------------------*/
 /* 5. MEDIA QUERIES */
@@ -5294,6 +5317,14 @@ button img {
 
 @media (max-width: 770px) {
 
+    .img-404 {
+        width: 400px;
+    }
+
+    .packages-top-block.error .container p {
+        max-width: 405px;
+    }
+
     .body-content.contacts .final-block.one {
         margin: 950px 0 100px;
     }
@@ -5341,6 +5372,7 @@ button img {
     .desktop-nav {
         padding: 0 30px;
     }
+
 }
 
 @media (max-width: 745px) {
@@ -5820,6 +5852,17 @@ button img {
 }
 
 @media (max-width: 490px) {
+
+    .img-404 {
+        width: 300px;
+    }
+
+    .packages-top-block.error .container p {
+        max-width: 305px;
+    }
+
+
+
 
     .mozaik1-block, .mozaik2-block {
         width: 300px;

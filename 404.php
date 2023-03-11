@@ -17,17 +17,41 @@
 <body>
 	<?php require "@commons/header.php" ?>
 
+    <div class="packages-top-block error">
+
+        <div class="container">
+            <img class="img-404" src="assets/images/404.png" alt="404">
+
+            <h2>Упс, щось зламалось!</h2>
+
+            <p>А Ви що, думали тільки в ДТЕК щось ламається? Бригада вже виїхала!</p>
+
+            <button>
+                Замовити дзвінок
+                <img src="assets/images/icons/arrow.svg" alt="arrow">
+            </button>
+        </div>
+
+    </div>
+
     <div class="body-container">
         <div class="body-content error">
 
-            404
+            <div class="modal-phone-form">
+                <div class="modal-phone-form-close"></div>
+                <div class="modal-phone-form-content">
+                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
+                    <h2>НАДІСЛАНО!</h2>
+                    <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
+                </div>
+            </div>
 
         </div>
     </div>
 
     <?php require "@commons/footer.php" ?>
 
-    <script src="js/main.js"></script>
+    <script src="js/404.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </body>
 </html>
