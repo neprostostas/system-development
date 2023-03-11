@@ -37,56 +37,60 @@
                 <div class="green-block"></div>
                 <h2>ОБЕРІТЬ ОДИН З 3-Х ВАРІАНТІВ ЗВ'ЯЗКУ </h2>
             </div>
-            <div class="main-form">
 
-                <div class="content-block">
+            <div class="container-main-form one">
+                <div class="main-form">
 
-                    <img class="bg-circles" src="assets/images/form-back-contact.png" alt="form-back-contact">
+                    <div class="content-block">
 
-                    <div class="top-index">
-                        <h3>1 варіант</h3>
-                        <p class="name-text">Залиште своє ім’я та номер телефону у формі нижче та ми швидко вам зателефонуємо</p>
-                    </div>
+                        <img class="bg-circles" src="assets/images/form-back-contact.png" alt="form-back-contact">
 
-                    <div class="wrap-form">
+                        <div class="top-index">
+                            <h3>1 варіант</h3>
+                            <p class="name-text">Залиште своє ім’я та номер телефону у формі нижче та ми швидко вам зателефонуємо</p>
+                        </div>
 
-                        <div class="phone-form main">
+                        <div class="wrap-form">
 
-                            <div class="form-box">
+                            <div class="phone-form main">
 
-                                <p class="mb-text">Залиште своє ім’я та номер телефону у формі нижче та ми швидко вам зателефонуємо</p>
+                                <div class="form-box">
 
-                                <div class="name-input-container">
-                                    <label for="name"></label>
-                                    <input id="name" type="text" placeholder="Ім’я">
-                                </div>
+                                    <p class="mb-text">Залиште своє ім’я та номер телефону у формі нижче та ми швидко вам зателефонуємо</p>
 
-                                <div class="tel-input-container">
-                                    <label for="tel2"></label>
-                                    <input id="tel2" type="tel" placeholder="+38 (0__) ___ __ __">
-                                </div>
+                                    <div class="name-input-container">
+                                        <label for="name"></label>
+                                        <input id="name" type="text" placeholder="Ім’я">
+                                    </div>
 
-                                <button class="enter enter2">
-                                    <span class="dk">Замовити дзвінок</span>
-                                    <span class="mb">Надіслати</span>
-                                    <img src="assets/images/icons/arrow.svg" alt="arrow">
-                                </button>
+                                    <div class="tel-input-container">
+                                        <label for="tel2"></label>
+                                        <input id="tel2" type="tel" placeholder="+38 (0__) ___ __ __">
+                                    </div>
 
-                                <div class="checkbox-container">
-                                    <input type="checkbox" id="personal" name="personal">
-                                    <label for="personal">Даю згоду на обробку персональних даних. <br class="mobile-only"> <span>Політика конфіденційності</span></label>
+                                    <button class="enter enter2">
+                                        <span class="dk">Замовити дзвінок</span>
+                                        <span class="mb">Надіслати</span>
+                                        <img src="assets/images/icons/arrow.svg" alt="arrow">
+                                    </button>
+
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="personal" name="personal">
+                                        <label for="personal">Даю згоду на обробку персональних даних. <br class="mobile-only"> <span>Політика конфіденційності</span></label>
+                                    </div>
+
                                 </div>
 
                             </div>
 
                         </div>
 
+
                     </div>
 
-
                 </div>
-
             </div>
+
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
@@ -95,51 +99,55 @@
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>
             </div>
-            <div class="final-block one"></div>
-            <div class="main-form">
 
-                <div class="content-block">
+<!--            <div class="final-block one"></div>-->
 
-                    <img class="bg-circles" src="assets/images/form-back-contact.png" alt="form-back-contact">
+            <div class="container-main-form two">
+                <div class="main-form">
 
-                    <div class="top-index">
-                        <h3>2 варіант</h3>
-                        <p class="name-text">Оберіть зручного вам оператора мобільного зв'язку чи надішліть е-mail, просто натисніть на необхідний номер чи е-mail і ми відповімо</p>
-                    </div>
+                    <div class="content-block">
 
-                    <div class="wrap-form">
+                        <img class="bg-circles" src="assets/images/form-back-contact.png" alt="form-back-contact">
 
-                        <div class="phone-form main">
+                        <div class="top-index">
+                            <h3>2 варіант</h3>
+                            <p class="name-text">Оберіть зручного вам оператора мобільного зв'язку чи надішліть е-mail, просто натисніть на необхідний номер чи е-mail і ми відповімо</p>
+                        </div>
 
-                            <div class="form-box-second">
+                        <div class="wrap-form">
 
-                                <div class="form-inner-part">
-                                    <img src="assets/images/icons/phone-vibro.svg" alt="phone-vibro">
-                                    <div class="phone-block">
-                                        <p>+38 073 050 25 50</p>
-                                        <p>+38 068 050 25 50</p>
+                            <div class="phone-form main">
+
+                                <div class="form-box-second">
+
+                                    <div class="form-inner-part">
+                                        <img src="assets/images/icons/phone-vibro.svg" alt="phone-vibro">
+                                        <div class="phone-block">
+                                            <p>+38 073 050 25 50</p>
+                                            <p>+38 068 050 25 50</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-inner-part">
-                                    <img src="assets/images/icons/mail.svg" alt="mail">
-                                    <div class="phone-block">
-                                        <p>+38 073 050 25 50</p>
-                                        <p>+38 068 050 25 50</p>
+                                    <div class="form-inner-part">
+                                        <img src="assets/images/icons/mail.svg" alt="mail">
+                                        <div class="phone-block">
+                                            <p>+38 073 050 25 50</p>
+                                            <p>+38 068 050 25 50</p>
+                                        </div>
                                     </div>
+
                                 </div>
 
                             </div>
 
                         </div>
 
+
                     </div>
 
-
                 </div>
-
             </div>
-            <div class="final-block two"></div>
+
             <div class="final-block last">
 
                 <img src="assets/images/lvl-up.png" alt="lvl-up">
