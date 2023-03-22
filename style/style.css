@@ -37,14 +37,18 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html.no-scroll {
+    overflow: hidden;
+    height: 100%;
 }
 
 body {
     background: var(--color-main);
-}
-
-body.no-scroll {
-    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 textarea:focus, input:focus{
@@ -294,10 +298,25 @@ button img {
 .middle-section {
     padding: 10px 0;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    /*grid-template-columns: repeat(3, auto);*/
+    grid-template-columns: repeat(2, auto);
     align-items: center;
     justify-content: center;
     gap: 40px;
+
+    opacity: 1;
+    animation: appear 0.5s ease-in-out;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .group {
@@ -3190,6 +3209,12 @@ button img {
 .container-main-form.two {
     height: 570px;
 }
+
+.nav-dk {
+    display: none;
+}
+
+
 
 /*-------------------------------------------------------------------------------*/
 /* 5. MEDIA QUERIES */

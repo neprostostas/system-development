@@ -10,8 +10,6 @@
     <title>SYS DEV</title>
     <script src="https://kit.fontawesome.com/02e8c33a85.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>

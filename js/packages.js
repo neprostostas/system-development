@@ -42,11 +42,11 @@ activeCheckbox.addEventListener('change', function() {
     if (activeCheckbox.checked) {
         wrapper.classList.add('active');
         fas.classList.add('active');
-        document.body.classList.add('no-scroll')
+        document.documentElement.classList.add('no-scroll')
     } else {
         wrapper.classList.remove('active');
         fas.classList.remove('active');
-        document.body.classList.remove('no-scroll')
+        document.documentElement.classList.remove('no-scroll')
     }
 });
 
@@ -62,37 +62,37 @@ const closeMLF = document.querySelector('.close-mlf');
 
 modalPhoneFormClose.addEventListener('click', function() {
     modalPhoneForm.classList.remove('active');
-    document.body.classList.remove('no-scroll');
+    document.documentElement.classList.remove('no-scroll');
 });
 
 modalLevel1FormClose.addEventListener('click', function() {
     modalLevel1Form.classList.remove('active');
-    document.body.classList.remove('no-scroll');
+    document.documentElement.classList.remove('no-scroll');
 });
 
 closeMPF.addEventListener('click', function() {
     modalPhoneForm.classList.remove('active');
-    document.body.classList.remove('no-scroll');
+    document.documentElement.classList.remove('no-scroll');
 });
 
 closeMLF.addEventListener('click', function() {
     modalLevel1Form.classList.remove('active');
-    document.body.classList.remove('no-scroll');
+    document.documentElement.classList.remove('no-scroll');
 });
 
 buttonEnter.addEventListener('click', function() {
     modalPhoneForm.classList.add('active');
-    document.body.classList.add('no-scroll');
+    document.documentElement.classList.add('no-scroll');
 });
 
 buttonEnter3.addEventListener('click', function() {
     modalPhoneForm.classList.add('active');
-    document.body.classList.add('no-scroll');
+    document.documentElement.classList.add('no-scroll');
 });
 
 infoTrigger.addEventListener('click', function() {
     modalLevel1Form.classList.add('active');
-    document.body.classList.add('no-scroll');
+    document.documentElement.classList.add('no-scroll');
 });
 
 // script to create BLUR elements
@@ -175,3 +175,19 @@ function toggleAccordion() {
     }
 }
 items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+
+// When the user scrolls down 50px from the top of the document, remove middleSection
+window.onscroll = function() {scrollFunction()};
+
+const middleSection = document.querySelector('.middle-section');
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        middleSection.style.display = "none";
+    } else {
+        middleSection.style.display = "grid";
+    }
+}
+
+AOS.init();

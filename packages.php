@@ -12,6 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -34,7 +39,7 @@
     <div class="body-container">
         <div class="body-content packages">
 
-            <div class="variants-block">
+            <div class="variants-block" data-aos="fade-left" data-aos-duration="1000">
 
                 <h3 class="top">Давайте розглянемо декілька варіантів</h3>
 
@@ -56,7 +61,7 @@
                         <p>І тому часто власнику бізнесу доводиться самому вникати в процеси побудови цієї системи, щоб зрозуміти в чому проблема.</p>
                     </div>
                 </div>
-                <div class="dream-block">
+                <div class="dream-block" data-aos="fade-down" data-aos-duration="1000">
 
                     <div class="part-1">
                         <div class="green-block"></div>
@@ -69,7 +74,7 @@
                 </div>
 
             </div>
-            <div class="tablet-block">
+            <div class="tablet-block" data-aos="fade-right" data-aos-duration="1000">
                 <img src="assets/images/tablet.png" alt="tablet">
 
                 <div class="text-block">
@@ -82,7 +87,7 @@
 
                 </div>
             </div>
-            <div class="blocks-square">
+            <div class="blocks-square" data-aos="fade-left" data-aos-duration="1000">
                 <div class="text-block">
                     <div class="green-block"></div>
                     <div class="inner-block">
@@ -172,7 +177,7 @@
                     <h2>Інтегрована або стороння</h2>
                 </div>
             </div>
-            <div class="final-block">
+            <div class="final-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <img src="assets/images/lvl-up.png" alt="lvl-up">
 
@@ -181,7 +186,7 @@
                 </div>
 
             </div>
-            <div class="team-swiper">
+            <div class="team-swiper" data-aos="flip-up" data-aos-duration="1000">
 
                 <div class="header-team">
                     <div class="green-block"></div>
@@ -220,14 +225,14 @@
             </div>
             <div class="level-header">
 
-                <div class="top-level">
+                <div class="top-level" data-aos="fade-left" data-aos-duration="1000">
 
                     <img src="assets/images/lvl-up.png" alt="lvl-up">
 
                     <h4><span>Ми прихильники послідовної побудови системи бізнесу</span>, бо, як показав досвід, 80% українських компаній не готові починати працювати одразу на другому рівні, тому ми зробили порівневий ріст</h4>
 
                 </div>
-                <div class="info-start">
+                <div class="info-start" data-aos="fade-right" data-aos-duration="1000">
 
                     <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
 
@@ -240,8 +245,7 @@
                     </div>
 
                 </div>
-
-                <div class="level-one">
+                <div class="level-one" data-aos="fade-left" data-aos-duration="1000">
 
                     <h2>Рівень 1</h2>
 
@@ -286,7 +290,7 @@
                     </div>
 
                 </div>
-                <div class="level-pro">
+                <div class="level-pro" data-aos="fade-right" data-aos-duration="1000">
 
                     <div class="left-block-pro">
                         <h2>Рівень PRO</h2>
@@ -351,47 +355,7 @@
                     </div>
 
                 </div>
-
-                <div class="modal-level1-form">
-                    <div class="modal-level1-form-close"></div>
-                    <div class="modal-level1-form-content">
-                        <img class="close-mlf" src="assets/images/icons/close.svg" alt="close">
-
-                        <ul>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>00 Проводимо повний аналіз соцмереж Вашого бізнесу.</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>01 Налаштовуємо таргетовану рекламу в Facebook&Instagram на різні сегменти (інтереси) аудиторії.</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>02 Створюємо рекламні банери під кожен сегмент аудиторії.</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>03 Постимо 5 постів та 30 історій в місяць.</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>04 Навчаємо 1 менеджера опрацьовувати правильно заявки та надаємо йому скрипт.</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>05 Виводимо на один з маркетплейсів України</p>
-                            </li>
-                            <li>
-                                <div class="green-circle"></div>
-                                <p>06 Щотижневі звіти за всіма показниками кожного запуску.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="level-max">
+                <div class="level-max" data-aos="fade-left" data-aos-duration="1000">
 
                     <h2>Рівень MAX</h2>
 
@@ -415,7 +379,7 @@
                 </div>
 
             </div>
-            <div class="complex-block">
+            <div class="complex-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="work-complex">
                     <div class="txt-part">
@@ -433,7 +397,7 @@
                 </div>
 
             </div>
-            <div class="phone-form">
+            <div class="phone-form" data-aos="fade-left" data-aos-duration="1000">
                 <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
                 <div class="form-blank">
@@ -463,7 +427,7 @@
                 </div>
 
             </div>
-            <div class="faq-block">
+            <div class="faq-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="container">
                     <div class="accordion">

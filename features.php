@@ -12,6 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -30,7 +35,8 @@
 
     <div class="body-container">
         <div class="body-content features">
-            <div class="block-developers">
+
+            <div class="block-developers" data-aos="fade-right" data-aos-duration="1000">
                 <div class="left-part">
                     <div class="green-block"></div>
                     <div class="dev-info-block">
@@ -73,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tablet-block">
+            <div class="tablet-block" data-aos="fade-left" data-aos-duration="1000">
                 <img src="assets/images/laptop-features.png" alt="laptop-features">
 
                 <div class="text-block">
@@ -88,7 +94,7 @@
 
                 </div>
             </div>
-            <div class="blocks-square">
+            <div class="blocks-square" data-aos="fade-right" data-aos-duration="1000">
                 <div class="text-block">
                     <div class="green-block"></div>
                     <div class="inner-block">
@@ -177,7 +183,7 @@
                     <h2>Інтегрована або стороння</h2>
                 </div>
             </div>
-            <div class="complex-block">
+            <div class="complex-block" data-aos="fade-left" data-aos-duration="1000">
 
                 <div class="work-complex">
                     <div class="txt-part">
@@ -193,7 +199,7 @@
                     </div>
                     <div class="badges-ads">
 
-                        <div class="ads-part">
+                        <div class="ads-part" data-aos="fade-left" data-aos-duration="1000">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                                 <img src="assets/images/icons/google-ads.svg" alt="google-ads">
                                 <p>Google Ads</p>
@@ -204,7 +210,7 @@
                             </a>
                         </div>
 
-                        <div class="ads-part">
+                        <div class="ads-part" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                                 <img src="assets/images/icons/viber.svg" alt="viber">
                                 <p>Viber</p>
@@ -215,7 +221,7 @@
                             </a>
                         </div>
 
-                        <div class="ads-part">
+                        <div class="ads-part" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                                 <img src="assets/images/icons/instagram.svg" alt="instagram">
                                 <p>Instagram</p>
@@ -226,7 +232,7 @@
                             </a>
                         </div>
 
-                        <div class="ads-part">
+                        <div class="ads-part" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
                             <a href="#" class="piece" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                                 <img src="assets/images/icons/yt-ads.svg" alt="youtube">
                                 <p>Уoutube</p>
@@ -239,7 +245,7 @@
 
                     </div>
                 </div>
-                <div class="ipad-block">
+                <div class="ipad-block" data-aos="fade-right" data-aos-duration="1000">
 
                     <img class="ipad" src="assets/images/ipad-features.png" alt="ipad-features">
 
@@ -271,8 +277,7 @@
                     </div>
 
                 </div>
-
-                <div class="strange-block">
+                <div class="strange-block" data-aos="fade-left" data-aos-duration="1000">
 
                     <div class="left-strange">
                         <h4 class="green">Ми працюємо лише з ОДНІЄЮ компанією в ОДНІЙ ніші в ОДНОМУ місті</h4>
@@ -287,7 +292,7 @@
                 </div>
 
             </div>
-            <div class="laptop-block">
+            <div class="laptop-block" data-aos="fade-left" data-aos-duration="1000">
 
                 <div class="info-laptop">
                     <h2>Також якщо ви наймете собі всіх підрядників на послуги, які ми надаємо, то:</h2>
@@ -312,7 +317,7 @@
                 <img src="assets/images/surface-laptop.png" alt="surface-laptop">
 
             </div>
-            <div class="team-swiper">
+            <div class="team-swiper" data-aos="flip-down" data-aos-duration="1000">
 
                 <div class="header-team">
                     <div class="green-block"></div>
@@ -349,7 +354,7 @@
                 </div>
 
             </div>
-            <div class="phone-form">
+            <div class="phone-form" data-aos="fade-left" data-aos-duration="1000">
                 <img class="phone-img" src="assets/images/phone.png" alt="phone">
 
                 <div class="form-blank">
@@ -379,7 +384,7 @@
                 </div>
 
             </div>
-            <div class="final-block">
+            <div class="final-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <img src="assets/images/lvl-up.png" alt="lvl-up">
 
@@ -389,6 +394,7 @@
                 </div>
 
             </div>
+
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">

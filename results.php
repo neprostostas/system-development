@@ -12,6 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -31,7 +36,7 @@
     <div class="body-container">
         <div class="body-content results">
 
-            <div class="block-specialist">
+            <div class="block-specialist" data-aos="fade-left" data-aos-duration="1000">
 
                 <div class="taps-section">
                     <div class="tap" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
@@ -71,7 +76,7 @@
                 </div>
 
             </div>
-            <div class="complex-block">
+            <div class="complex-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="work-complex">
                     <img class="laptop-complex" src="assets/images/laptop-results.png" alt="laptop-results">
@@ -89,7 +94,7 @@
                 </div>
 
             </div>
-            <div class="mozaik-1">
+            <div class="mozaik-1" data-aos="fade-left" data-aos-duration="1000">
 
                 <h3>Приклад вартості утримання власного відділу</h3>
 
@@ -233,7 +238,7 @@
                 </div>
 
             </div>
-            <div class="mozaik-2">
+            <div class="mozaik-2" data-aos="flip-up" data-aos-duration="1000">
 
                 <h3>Приклад вартості послуг в інших агенствах, якщо збирати ці послуги від різних підрядників</h3>
 
@@ -322,7 +327,7 @@
                 </div>
 
             </div>
-            <div class="all-easy">
+            <div class="all-easy" data-aos="fade-left" data-aos-duration="1000">
 
                 <div class="left-easy-block">
 
@@ -357,7 +362,7 @@
                 </div>
 
             </div>
-            <div class="cases-swiper">
+            <div class="cases-swiper" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="header-cases">
 
@@ -567,7 +572,7 @@
                 </div>
 
             </div>
-            <div class="laptop-block">
+            <div class="laptop-block" data-aos="fade-left" data-aos-duration="1000">
 
                 <div class="info-laptop">
 
@@ -600,7 +605,7 @@
                 <img class="laptop-results-3" src="assets/images/laptop-results-3.png" alt="laptop-results-3">
 
             </div>
-            <div class="main-form">
+            <div class="main-form" data-aos="flip-up" data-aos-duration="1000">
 
                 <img class="bg-circles" src="assets/images/form-back.png" alt="form-back">
 
@@ -638,16 +643,8 @@
                 </div>
 
             </div>
-            <div class="modal-phone-form">
-                <div class="modal-phone-form-close"></div>
-                <div class="modal-phone-form-content">
-                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
-                    <h2>НАДІСЛАНО!</h2>
-                    <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
-                </div>
-            </div>
-            <div class="final-block"></div>
-            <div class="laptop-block">
+            <div class="final-block" data-aos="fade-left" data-aos-duration="1000"></div>
+            <div class="laptop-block" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="info-laptop">
 
@@ -660,6 +657,15 @@
 
                 <img class="iphones-results" src="assets/images/iphones-results.png" alt="iphones-results">
 
+            </div>
+
+            <div class="modal-phone-form">
+                <div class="modal-phone-form-close"></div>
+                <div class="modal-phone-form-content">
+                    <img class="close-mpf" src="assets/images/icons/close.svg" alt="close">
+                    <h2>НАДІСЛАНО!</h2>
+                    <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
+                </div>
             </div>
 
         </div>

@@ -10,8 +10,11 @@
     <title>SYS DEV</title>
     <script src="https://kit.fontawesome.com/02e8c33a85.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imask"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -33,12 +36,11 @@
     <div class="body-container">
         <div class="body-content contacts">
 
-            <div class="contacts-top">
+            <div class="contacts-top" data-aos="fade-left" data-aos-duration="1000">
                 <div class="green-block"></div>
                 <h2>ОБЕРІТЬ ОДИН З 3-Х ВАРІАНТІВ ЗВ'ЯЗКУ </h2>
             </div>
-
-            <div class="container-main-form one">
+            <div class="container-main-form one" data-aos="fade-right" data-aos-duration="1000">
                 <div class="main-form">
 
                     <div class="content-block">
@@ -90,7 +92,6 @@
 
                 </div>
             </div>
-
             <div class="modal-phone-form">
                 <div class="modal-phone-form-close"></div>
                 <div class="modal-phone-form-content">
@@ -99,10 +100,7 @@
                     <p>Очікуйте відповіді, невдовзі наш менеджер зв’яжеться з Вами</p>
                 </div>
             </div>
-
-<!--            <div class="final-block one"></div>-->
-
-            <div class="container-main-form two">
+            <div class="container-main-form two" data-aos="fade-left" data-aos-duration="1000">
                 <div class="main-form">
 
                     <div class="content-block">
@@ -147,8 +145,7 @@
 
                 </div>
             </div>
-
-            <div class="final-block last">
+            <div class="final-block last" data-aos="fade-right" data-aos-duration="1000">
 
                 <img src="assets/images/lvl-up.png" alt="lvl-up">
 

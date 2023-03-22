@@ -13,5 +13,9 @@
     <orderEntry type="library" name="vanilla-tilt" level="application" />
     <orderEntry type="library" name="swiper" level="application" />
     <orderEntry type="library" name="@splidejs/splide" level="application" />
+    <orderEntry type="library" name="jquery.paroller" level="application" />
+    <orderEntry type="library" name="animate.css" level="application" />
+    <orderEntry type="library" name="wow" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
   </component>
 </module>
