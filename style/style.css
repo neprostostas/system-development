@@ -2980,21 +2980,6 @@ button img {
 }
 
 /* **************************************** */
-/* change when niches page will be designed */
-/* **************************************** */
-
-.body-content:is(.niches) {
-    padding-top: 300px;
-    height: 400px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    color: var(--color-white);
-}
-
-/* **************************************** */
 
 .video-block.bg-block .video {
     background-image: url('../assets/images/bg-contacts.png');
@@ -3230,6 +3215,23 @@ button img {
 }
 
 
+
+
+
+/* **************************************** */
+/* change when niches page will be designed */
+/* **************************************** */
+
+.body-content:is(.niches) {
+    padding-top: 300px;
+    height: 400px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--color-white);
+}
 
 /*-------------------------------------------------------------------------------*/
 /* 5. MEDIA QUERIES */
