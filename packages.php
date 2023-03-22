@@ -234,15 +234,19 @@
                 </div>
                 <div class="info-start" data-aos="fade-right" data-aos-duration="1000">
 
-                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                    <h2 class="green-three-lvl">Наша система будується на трьох рівнях</h2>
 
-                    <div class="container-layer">
+                    <img class="bg-three-lvl-img" src="assets/images/bg-three-lvl.png" alt="bg-three-lvl">
 
-                        <div class="center-layer">
-                            <h2>Наша система будується на трьох рівнях</h2>
-                        </div>
-
-                    </div>
+<!--                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">-->
+<!---->
+<!--                    <div class="container-layer">-->
+<!---->
+<!--                        <div class="center-layer">-->
+<!--                            <h2>Наша система будується на трьох рівнях</h2>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
 
                 </div>
                 <div class="level-one" data-aos="fade-left" data-aos-duration="1000">

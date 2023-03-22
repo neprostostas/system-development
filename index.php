@@ -293,16 +293,16 @@
                     <h2>Також якщо ви наймете собі всіх підрядників на послуги, які ми надаємо, то:</h2>
 
                     <ul class="list-advantages">
-                        <li>
+                        <li data-aos="fade-right" data-aos-duration="1000">
                             <div class="green-rectangle thin"></div>
                             <p>це буде <b>в рази дорожче</b></p></li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                             <div class="green-rectangle thin"></div>
                             <p>у випадку, якщо щось піде не так, як планувалось, вам буде <b>важко знайти винних</b></p></li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
                             <div class="green-rectangle thin"></div>
                             <p><b>система, яка у вас вже працює, може зруйнуватись,</b> якщо рекомендації підрядників будуть суперечити одна одній.</p></li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
                             <div class="green-rectangle thin"></div>
                             <p>універсали, які працюють зі всіма нішами, <b>не знають специфіки вашого бізнесу</b> і пропонують стандартні рішення</p></li>
                     </ul>
@@ -358,17 +358,21 @@
                     <h4><span>Ми прихильники послідовної побудови системи бізнесу</span>, бо, як показав досвід, 80% українських компаній не готові починати працювати одразу на другому рівні, тому ми зробили порівневий ріст</h4>
 
                 </div>
-                <div class="info-start" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info-start" data-aos="fade-down" data-aos-duration="1000">
 
-                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                    <h2 class="green-three-lvl">Наша система будується на трьох рівнях</h2>
 
-                    <div class="container-layer">
+                    <img class="bg-three-lvl-img" src="assets/images/bg-three-lvl.png" alt="bg-three-lvl">
 
-                        <div class="center-layer">
-                            <h2>Наша система будується на трьох рівнях</h2>
-                        </div>
-
-                    </div>
+<!--                    <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">-->
+<!---->
+<!--                    <div class="container-layer">-->
+<!---->
+<!--                        <div class="center-layer">-->
+<!--                            <h2>Наша система будується на трьох рівнях</h2>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
 
                 </div>
                 <div class="level-one" data-aos="fade-right" data-aos-duration="1000">
@@ -377,31 +381,31 @@
 
                     <div class="block-level">
                         <ul>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000">
                                 <div class="green-circle"></div>
                                 <p>00 Проводимо повний аналіз соцмереж Вашого бізнесу.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                                 <div class="green-circle"></div>
                                 <p>01 Налаштовуємо таргетовану рекламу в Facebook&Instagram на різні сегменти (інтереси) аудиторії.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="green-circle"></div>
                                 <p>02 Створюємо рекламні банери під кожен сегмент аудиторії.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
                                 <div class="green-circle"></div>
                                 <p>03 Постимо 5 постів та 30 історій в місяць.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
                                 <div class="green-circle"></div>
                                 <p>04 Навчаємо 1 менеджера опрацьовувати правильно заявки та надаємо йому скрипт.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2500">
                                 <div class="green-circle"></div>
                                 <p>05 Виводимо на один з маркетплейсів України</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3000">
                                 <div class="green-circle"></div>
                                 <p>06 Щотижневі звіти за всіма показниками кожного запуску.</p>
                             </li>
@@ -435,37 +439,37 @@
                         </div>
 
                         <ul>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000">
                                 <div class="green-circle"></div>
                                 <p>07 СRМ-СИСТЕМА</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                                 <div class="green-circle"></div>
                                 <p>08 Повний аналіз відділу продажів та проведення аналізу кожного менеджера</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="green-circle"></div>
                                 <p>09 Перевірка провідним спеціалістом рівня залученості в навчання менеджерами та формування по кожному менеджеру звітність.
                                     Проведення конференцій та надання рекомендацій та завдань.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
                                 <div class="green-circle"></div>
                                 <p>10 Розробляємо ІНДИВІДУАЛЬНІ СКРИПТИ ПРОДАЖУ
                                     Проведення інструктажу для усіх менеджерів, як правильно користуватися скриптом, щоб мати розуміння, як довести людину до покупки.</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
                                 <div class="green-circle"></div>
                                 <p>11 Реклама в Google, створення та наповнення Google-точок</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
                                 <div class="green-circle"></div>
                                 <p>12 Рекомендації щодо сайту + корекція існуючого. Чи розробка нового сайту з нуля* (за додаткову плату)</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
                                 <div class="green-circle"></div>
                                 <p>13 Робота з маркетплейсами OLX, PROM, HOTLINE (на вибір)</p>
                             </li>
-                            <li>
+                            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2500">
                                 <div class="green-circle"></div>
                                 <p>14 Розробка чи корегування BAF аналітики та загальної системи бізнесу</p>
                             </li>
