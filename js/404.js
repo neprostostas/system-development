@@ -108,15 +108,11 @@ if (window.innerWidth >= 1200) {
 
 }
 
-// When the user scrolls down 50px from the top of the document, remove middleSection
-window.onscroll = function() {scrollFunction()};
-
-const middleSection = document.querySelector('.middle-section');
-
-function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        middleSection.style.display = "none";
+// When the user scrolls down 50px from the top of the document, easily-animated remove middleSection
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 50) {
+        $('.middle-section').slideUp(200);
     } else {
-        middleSection.style.display = "grid";
+        $('.middle-section').slideDown(200);
     }
-}
+});

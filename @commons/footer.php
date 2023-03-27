@@ -21,7 +21,6 @@
 
                 <nav class="links-section">
                     <ul>
-                        <li><a class="page-link" href="../niches.php">Ніші</a></li>
                         <li><a class="page-link" href="../features.php">Особливості</a></li>
                         <li><a class="page-link" href="../packages.php">Про послугу/пакети</a></li>
                         <li><a class="page-link" href="../results.php">Результати</a></li>

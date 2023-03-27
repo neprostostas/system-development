@@ -34,22 +34,22 @@
                     <div class="group">
                         <img src="../assets/images/icons/gr-1.svg" alt="gr-1">
                         <div class="group-content">
-                            <h3>10 000 000+</h3>
+                            <h3>2 000 000+ $</h3>
                             <p>Валового прибутку заробили для клієнтів</p>
                         </div>
                     </div>
                     <div class="group">
                         <img src="../assets/images/icons/gr-2.svg" alt="gr-2">
                         <div class="group-content">
-                            <h3>10 000 000+</h3>
-                            <p>Середній чек валового прибутку клієнтів в перший місяць роботи</p>
+                            <h3>18 міст</h3>
+                            <p>Територіальні охоплення для розвитку бізнесу</p>
                         </div>
                     </div>
                     <div class="group">
                         <img src="../assets/images/icons/gr-3.svg" alt="gr-3">
                         <div class="group-content">
-                            <h3>8 міст</h3>
-                            <p>Допомогли клієнтам з 8 міст України систематизувати бізнес</p>
+                            <h3>3 країни</h3>
+                            <p>Допомогли клієнтам систематизувати бізнес</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,6 @@
             </div>
             <nav class="last-section">
                 <ul>
-                    <li><a class="page-link" href="../niches.php">Ніші</a></li>
                     <li><a class="page-link" href="../features.php">Особливості</a></li>
                     <li><a class="page-link" href="../packages.php">Про послугу/пакети</a></li>
                     <li><a class="page-link" href="../results.php">Результати</a></li>
@@ -86,7 +85,6 @@
                     </a>
 
                     <ul class="mob-ul">
-                        <li><a class="page-link" href="../niches.php">Ніші</a></li>
                         <li><a class="page-link" href="../features.php">Особливості</a></li>
                         <li><a class="page-link" href="../packages.php">Про послугу/пакети</a></li>
                         <li><a class="page-link" href="../results.php">Результати</a></li>

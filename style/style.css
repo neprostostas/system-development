@@ -303,20 +303,6 @@ button img {
     align-items: center;
     justify-content: center;
     gap: 40px;
-
-    opacity: 1;
-    animation: appear 0.5s ease-in-out;
-}
-
-@keyframes appear {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .group {
@@ -543,13 +529,25 @@ button img {
     gap: 15px;
 }
 
-.square {
+.square, .square-add {
     cursor: pointer;
     overflow: hidden;
     height: 250px;
     position: relative;
     background: #242424;
     box-shadow: -5px 7px 17px rgba(0, 0, 0, 0.25);
+}
+
+.square-add {
+    margin-top: 1px;
+    height: 249px;
+}
+
+.img-line-hide1 {
+    position: absolute;
+    top: 31px;
+    left: 75px;
+    transform: scaleX(1.7);
 }
 
 .span-three {
@@ -566,7 +564,7 @@ button img {
     line-height: 74px;
 }
 
-.square p {
+.square p, .square-add p {
     position: absolute;
     left: 50%;
     bottom: 20px;
@@ -600,7 +598,8 @@ button img {
 
 .square:nth-child(4) img {
     position: absolute;
-    top: -5px;
+    transform: scaleX(-2.9) scaleY(0.7);
+    top: 76px;
     right: -5px;
 }
 
@@ -1203,6 +1202,10 @@ button img {
 /*    backdrop-filter: blur(39px);*/
 /*    border-radius: 9px;*/
 /*}*/
+
+.show-mobile {
+    display: none;
+}
 
 .top-level img {
     width: 100%;
@@ -3214,6 +3217,15 @@ button img {
     display: none;
 }
 
+.dev-info-block {
+    gap: 31px;
+}
+
+.block-developers {
+    gap: 15px;
+}
+
+
 
 
 
@@ -3461,6 +3473,32 @@ button img {
 
 @media (max-width: 1415px) {
 
+    .square:nth-child(4) img {
+        transform: none;
+        top: -5px;
+        right: -5px;
+    }
+
+    .block-developers {
+        gap: 45px;
+    }
+
+    .dev-info-block {
+        gap: 45px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .button-block {
+        width: 720px;
+    }
+
     .body-content.results .text-cont .green-block {
         margin-top: 2px;
     }
@@ -3489,7 +3527,7 @@ button img {
     }
 
     .dev-info-block h3 {
-        font-size: 30px;
+        font-size: 47px;
     }
 
     .green-block {
@@ -4777,6 +4815,20 @@ button img {
 
 @media (max-width: 930px) {
 
+    .button-block {
+        width: 415px;
+    }
+
+    .dev-info-block h3 {
+        font-size: 25px;
+    }
+
+    .green-block {
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
     .container-main-form.one {
         height: 1000px;
     }
@@ -5387,20 +5439,6 @@ button img {
         max-width: 440px;
     }
 
-    .dev-info-block h3 {
-        font-size: 20px;
-    }
-
-    .green-block {
-        margin-top: 26px;
-        width: 20px;
-        height: 20px;
-    }
-
-    .left-part {
-        gap: 10px;
-    }
-
     .dev-info-block {
         gap: 0;
     }
@@ -5609,6 +5647,24 @@ button img {
 }
 
 @media (max-width: 690px) {
+
+    .button-block {
+        width: 330px;
+    }
+
+    .dev-info-block h3 {
+        font-size: 20px;
+    }
+
+    .green-block {
+        margin-top: 23px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .left-part {
+        gap: 10px;
+    }
 
     .nav-dk {
         display: none;

@@ -51,10 +51,14 @@
                     <div class="green-block"></div>
                     <div class="dev-info-block">
                         <h3>ВИРОБНИКИ ТА ДИЛЕРИ</h3>
-                        <button>
+                        <button class="hide-mobile">
                             Консультація
                             <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
+                        <div class="square-add hide-mobile" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+                            <img class="img-line-hide1" src="assets/images/icons/line-2.svg" alt="line-2">
+                            <p>Забудовники</p>
+                        </div>
                     </div>
                 </div>
                 <div class="right-part">
@@ -82,11 +86,17 @@
                         <img src="assets/images/icons/line-6.svg" alt="line-6">
                         <p>Меблів</p>
                     </div>
-                    <div class="square span-three" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+                    <div class="square span-three show-mobile" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                         <img src="assets/images/icons/line-7.svg" alt="line-7">
                         <img src="assets/images/icons/line-8.svg" alt="line-8">
                         <p>Забудовники</p>
                     </div>
+                </div>
+                <div class="button-block">
+                    <button class="show-mobile">
+                        Консультація
+                        <img src="assets/images/icons/arrow.svg" alt="arrow">
+                    </button>
                 </div>
             </div>
             <div class="three-cards" data-aos="fade-right" data-aos-duration="1000">

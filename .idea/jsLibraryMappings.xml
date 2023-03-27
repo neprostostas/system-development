@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{02e8c33a85, @splidejs/splide, animate.css, aos, imask, jquery-3.6.0, jquery.inputmask, jquery.paroller, swiper, tilt.js, vanilla-masker, vanilla-tilt, wow}" />
+    <file url="PROJECT" libraries="{02e8c33a85, @splidejs/splide, animate.css, aos, imask, jquery-3.6.0, jquery.inputmask, jquery.paroller, leaflet, modern-normalize, swiper, tilt.js, vanilla-masker, vanilla-tilt, wow}" />
   </component>
 </project>
