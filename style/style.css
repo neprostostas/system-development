@@ -3227,8 +3227,65 @@ button img {
 
 
 
+.text-map {
+    padding-bottom: 40px;
+}
 
+.map-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+}
 
+#content-Ukr, #content-Kz, #content-Rm {
+    margin-top: 30px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.7s ease;
+}
+
+:is(#content-Ukr, #content-Kz, #content-Rm) img {
+    width: 100%;
+}
+
+#content-Rm img {
+     width: 80%;
+ }
+
+:is(#but-Ukr, #but-Kz, #but-Rm) {
+    color: var(--color-green-square);
+    padding: 10px 0;
+    width: 260px;
+}
+
+:is(#but-Ukr, #but-Kz, #but-Rm).active {
+    background: var(--color-green-square);
+    color: var(--color-black);
+}
+
+:is(#content-Ukr, #content-Kz, #content-Rm).active {
+    /*display: block;*/
+    display: grid;
+    justify-items: end;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    animation: slide-in 0.7s ease;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* **************************************** */
 /* change when niches page will be designed */
@@ -4425,6 +4482,10 @@ button img {
 
 @media (max-width: 1020px) {
 
+    /*:is(#content-Ukr, #content-Kz, #content-Rm).active {*/
+    /*    justify-items: start;*/
+    /*}*/
+
     .container-main-form.one {
         height: 950px;
     }
@@ -5240,6 +5301,10 @@ button img {
 
 @media (max-width: 845px) {
 
+    :is(#but-Ukr, #but-Kz, #but-Rm) {
+        width: 200px;
+    }
+
     .footer-content .top-section {
         grid-template-columns: auto;
         justify-content: center;
@@ -5303,6 +5368,13 @@ button img {
 }
 
 @media (max-width: 795px) {
+
+
+    :is(#but-Ukr, #but-Kz, #but-Rm) {
+        width: 150px;
+        padding: 5px 0;
+    }
+
 
     .body-content.contacts .contacts-top .green-block {
         margin-top: 8px;
@@ -6026,6 +6098,20 @@ button img {
     .scroll-button {
         bottom: 88px;
         width: 45px;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    :is(#but-Ukr, #but-Kz, #but-Rm) {
+        width: unset;
+        padding: 5px 10px;
+        line-height: 1rem;
+    }
+
+    .map-block h2 {
+        font-size: 26px;
     }
 
 }

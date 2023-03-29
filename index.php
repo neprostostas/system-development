@@ -779,20 +779,22 @@
             </div>
             <div class="map-block" data-aos="fade-right" data-aos-duration="1000">
 
-                <div class="ukraine-block">
-                    <h2>Наші клієнти вже присутні у <span>11 містах України</span></h2>
-                    <img class="ukraine-img" src="assets/images/ukraine-phone.png" alt="ukraine-phone">
+                <h2 class="text-map">Наші клієнти вже присутні у <span>11 містах України, 6 Казахстану</span> та <span>3-х Румунії</span></h2>
+
+                <div class="map-buttons">
+                    <button id="but-Ukr" class="btn-country" onclick="showContent('content-Ukr')">В містах України</button>
+                    <button id="but-Kz" class="btn-country" onclick="showContent('content-Kz')">В містах Казахстану</button>
+                    <button id="but-Rm" class="btn-country" onclick="showContent('content-Rm')">В містах Румунії</button>
                 </div>
 
-                <div class="others-block">
-                    <div class="kazakhstan-block">
-                        <h2><span>6 містах</span> Казахстану</h2>
-                        <img class="kazakhstan-img" src="assets/images/kazakhstan.png" alt="kazakhstan-map">
-                    </div>
-                    <div class="romania-block">
-                        <img class="romania-img" src="assets/images/romania.png" alt="romania-map">
-                        <h2>І в <span>3 містах</span> Румунії</h2>
-                    </div>
+                <div id="content-Ukr">
+                    <img class="ukraine-img" src="assets/images/ukraine.png" alt="ukraine-map">-->
+                </div>
+                <div id="content-Kz">
+                    <img class="kazakhstan-img" src="assets/images/kazakhstan.png" alt="kazakhstan-map">-->
+                </div>
+                <div id="content-Rm">
+                    <img class="romania-img" src="assets/images/romania.png" alt="romania-map">-->
                 </div>
 
             </div>

@@ -224,4 +224,24 @@ $(window).scroll(function() {
     }
 });
 
+
+
+document.getElementById('but-Ukr').classList.add('active');
+document.getElementById('content-Ukr').classList.add('active');
+
+function showContent(id) {
+    const content = document.getElementById(id);
+
+    if (!content.classList.contains('active')) {
+        document.querySelectorAll('.active').forEach(function(el) {
+            el.classList.remove('active');
+        });
+
+        content.classList.add('active');
+        document.querySelector('[onclick="showContent(\'' + id + '\')"]').classList.add('active');
+    }
+}
+
+
+
 AOS.init();
