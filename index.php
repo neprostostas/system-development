@@ -50,15 +50,19 @@
                 <div class="left-part">
                     <div class="green-block"></div>
                     <div class="dev-info-block">
+
                         <h3>ВИРОБНИКИ ТА ДИЛЕРИ</h3>
+
                         <button class="hide-mobile">
                             Консультація
                             <img src="assets/images/icons/arrow.svg" alt="arrow">
                         </button>
+
                         <div class="square-add hide-mobile" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
                             <img class="img-line-hide1" src="assets/images/icons/line-2.svg" alt="line-2">
                             <p>Забудовники</p>
                         </div>
+
                     </div>
                 </div>
                 <div class="right-part">
