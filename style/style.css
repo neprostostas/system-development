@@ -3136,6 +3136,12 @@ button img {
     padding: 0;
 }
 
+.mail-a {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    word-break: break-word;
+}
+
 .form-box-second {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -3682,6 +3688,10 @@ button img {
     }
 
     .body-content.contacts .main-form .content-block .form-inner-part p {
+        font-size: 21px;
+    }
+
+    .mail-a {
         font-size: 21px;
     }
 

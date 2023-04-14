@@ -129,8 +129,7 @@
                                     <div class="form-inner-part">
                                         <img src="assets/images/icons/mail.svg" alt="mail">
                                         <div class="phone-block">
-                                            <p>+38 073 050 25 50</p>
-                                            <p>+38 068 050 25 50</p>
+                                            <a class="mail-a" href="mailto:sd@systemdevelopment.com.ua">sd@systemdevelopment.com.ua</a>
                                         </div>
                                     </div>
 
